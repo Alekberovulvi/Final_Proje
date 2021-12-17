@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="img/png" href="images/download.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/pizza.css">
+    <title>Papa Johns | Yemək siafrişi | Pulsuz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="modal fade" id="giris" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email Ünvanı</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Şifrə</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Məni yadda saxla</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Daxil ol</button>
+                    </form>
+                    <span style="margin-left: 360px;
+                                    font-size: 12px;">Hesabınız Yoxdur?</span>
+                    <div class="text-center fs-6"><button class="btn btn-secondary" data-bs-toggle="modal"
+                            data-bs-target="#qeydiyyat" style="    margin-left: 340px;" href="#">Qeydiyatdan Keçin</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <div class="modal fade" id="qeydiyyat" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="text" class="form-label">Ad</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="text" class="form-label">Soyad</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Telefon Nömrəsi</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email Ünvanı</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Şifrə</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword2" class="form-label">Şifrənin Bərpası</label>
+                            <input type="password" class="form-control" id="exampleInputPassword2">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Məni yadda saxla</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Qeydiyyat</button>
+                    </form>
+                    <button data-bs-toggle="modal" data-bs-target="#giris" class="btn btn-warning" style="margin-left: 300px;
+                                    margin-top: -37px;" href="#">Giriş Ekranına Geri Dönun</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+        
+        <div class="header-top">
+            <div class="header-list d-flex justify-content-between">
+                <ul class="bigmenu">
+                    <li>
+                        <a class="right" href="bounce.html">PapaBonus</a>
+                    </li>
+                </ul>
+
+                <div class="button-container d-flex justify-content-between">
+                    <button style="font-size: 25px;" type="button" class="btn btn-black" data-bs-toggle="modal" data-bs-target="#giris">
+                        Giriş
+                    </button>
+                    <button style="margin-left: -444px; font-size: 25px;" type="button" class="btn btn-black" data-bs-toggle="modal"
+                    data-bs-target="#qeydiyyat">
+                    Qeydiyyat
+                </button>
+                </div>
+
+                <div class="header-user">
+                    <div class="col-i col-i-f">
+                        <a href="#">
+                            <div class="basket-wrapper">
+                                <i class="fas fa-shopping-basket"></i>
+                                <span class="price">0 ₼ </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar">
+            <a href="index.html" class="nav-logo"><img src="images/pj_logo_web_new.png" alt=""></a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="campaign.html" class="nav-link">Kampaniyalar</a>
+                </li>
+                <li class="nav-item">
+                    <a href="papadias.html" class="nav-link">Papadias</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pizza.html" class="nav-link">Pizza</a>
+                </li>
+                <li class="nav-item">
+                    <a href="snack.html" class="nav-link">Qəlyanaltı</a>
+                </li>
+                <li class="nav-item">
+                    <a href="salat.html" class="nav-link">Salat</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pasta.html" class="nav-link">Pasta</a>
+                </li>
+                <li class="nav-item">
+                    <a href="drink.html" class="nav-link">İçki</a>
+                </li>
+                <li class="nav-item">
+                    <a href="desert.html" class="nav-link">Desert</a>
+                </li>
+                <li class="nav-item">
+                    <a href="sous.html" class="nav-link">Sous</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="promo">
+            <div class="promo-wrapper">
+                <p>
+                    Promo kodunuz var?
+                    <span>
+                        Endirimdən istifadə edin!
+                    </span>
+                </p>
+                <input type="text" class="promo-code" placeholder="Promo kodu daxil edin">
+                <a href="#" class="btn btn_green js-activate-promo-code">Ok</a>
+            </div>
+        </section>
+        <section class="pizza">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <img src="images/american-hot.png" alt="">
+                        <h1>Amerikan Hot
+                        </h1>
+                        <p>Pizza Sous, Mozzarella pendiri, Pepperoni və Halapenyo Bibəri
+                        </p>
+                        <button type="button" class="btn btn-success openModal">
+                            Bunu Seç
+                        </button>
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="images/Spicy-chicken-ranch.png" alt="">
+                        <h1>Acılı Çiken Ranç
+                        </h1>
+                        <p>Ranch Sousu, Toyuq Əti, Göbələklər, Sarımsaq, Halapenyo Bibəri, Təzə Doğranmış Pomidorlar və
+                            Mozzarella Pendiri
+                        </p>
+                        <button type="button" class="btn btn-success openModal">
+                            Bunu Seç
+                        </button>
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="images/papamiks-sayt.png" alt="">
+                        <h1>Papa Miks
+                        </h1>
+                        <p>Çiken BBQ, Hot&Spaysi, Marqarita, Klassik Pepperoni
+                        </p>
+                        <button type="button" class="btn btn-success openModal">
+                            Bunu Seç
+                        </button>
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="images/chicken_ranch.jpg" alt="">
+                        <h1>Çiken Ranç
+                        </h1>
+                        <p>Qril Toyuq, Pomidor, Ranç Sousu, Mozzarella Pendiri
+                        </p>
+                        <button type="button" class="btn btn-success openModal">
+                            Bunu Seç
+                        </button>
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="images/Cheddar-Dabl-Burger.png" alt="">
+                        <h1>Cheddar Dabl Burger
+                        </h1>
+                        <p>1000 ada sousu, Mal əti, Pomidor, Mozzarella, Cheddar
+                        </p>
+                        <button type="button" class="btn btn-success openModal">
+                            Bunu Seç
+                        </button>
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="images/vegetarian-acili.png" alt="">
+                        <h1>Acılı Vegetarian
+                        </h1>
+                        <p>Halapenyo Bibəri, Pomidor, Göbələk, Qara Zeytun, Yaşıl Bibər və Mozzarella Pendiri
+                        </p>
+                        <button type="button" class="btn btn-success openModal">
+                            Bunu Seç
+                        </button>
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="images/Cheddar-Çiken-Club.png" alt="">
+                        <h1>Cheddar Çiken Club
+                        </h1>
+                        <p>Qril toyuğu, Pomidor, Vetçina, Mozzarella, Cheddar, Ranç sousu
+                        </p>
+                        <button type="button" class="btn btn-success openModal">
+                            Bunu Seç
+                        </button>
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="images/chicken_barbekyu.jpg" alt="">
+                        <h1>Çiken Barbekyu
+                        </h1>
+                        <p>Qril Toyuq, Göbələk, Barbekyu Sousu, Mozzarella Pendiri
+                        </p>
+                        <button type="button" class="btn btn-success openModal">
+                            Bunu Seç
+                        </button>
+
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="images/meksika.jpg" alt="">
+                        <h1>Meksika
+                        </h1>
+                        <p>Qril Toyuq, Pomidor, Göbələk, Yaşıl Bibər, Halapenyo Bibəri, Mozzarella Pendiri
+                        </p>
+                        <button type="button" class="btn btn-success openModal">
+                            Bunu Seç
+                        </button>
+
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="images/super-papa.jpg" alt="">
+                        <h1>Super Papa
+                        </h1>
+                        <p>Pepperoni, İtalyan Sosisi, Mal Ətindən Vetçina, Göbələk, Yaşıl Bibər, Qara Zeytun, Mozzarella
+                            Pendiri
+                        </p>
+                        <button type="button" class="btn btn-success openModal">
+                            Bunu Seç
+                        </button>
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="images/yunan (1).jpg" alt="">
+                        <h1>Yunan
+                        </h1>
+                        <p>Pomidor, Zeytun, Feta Pendiri, Oreqano, Acılı Bibər, Mozzarella Pendiri
+                        </p>
+                        <button type="button" class="btn btn-success openModal">
+                            Bunu Seç
+                        </button>
+
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="images/chicken_cheeseburger.jpg" alt="">
+                        <h1>Çiken Çizburger
+                        </h1>
+                        <p>Qril Toyuq, Turşu Xiyar, Pomidor, Mozzarella Pendiri, Sous
+                        </p>
+                        <button type="button" class="btn btn-success openModal">
+                            Bunu Seç
+                        </button>
+
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="images/margarita.jpg" alt="">
+                        <h1>Margarita
+                        </h1>
+                        <p>Pomidor, Oreqano, Mozzarella Pendiri
+                        </p>
+                        <button type="button" class="btn btn-success openModal">
+                            Bunu Seç
+                        </button>
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="images/qarishiq_et.jpg" alt="">
+                        <h1>Qarışıq Ət
+                        </h1>
+                        <p>Pepperoni, İtalyan Sosisi, Mal Əti, Mal Ətindən Vetçina, Mozzarella Pendiri
+                        </p>
+                        <button type="button" class="btn btn-success openModal">
+                            Bunu Seç
+                        </button>
+
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="images/vegetarian.jpg" alt="">
+                        <h1>Vegetarian
+                        </h1>
+                        <p>Pomidor, Göbələk, Yaşıl Bibər, Qara Zeytun, Mozzarella Pendiri
+                        </p>
+                        <button type="button" class="btn btn-success openModal">
+                            Bunu Seç
+                        </button>
+
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="images/double_cheeseburger.jpg" alt="">
+                        <h1>Dabl Çizburger
+                        </h1>
+                        <p>Mal Əti, Turşu Xiyar, Pomidor, Mozzarella Pendiri, Sous
+                        </p>
+                        <button type="button" class="btn btn-success openModal">
+                            Bunu Seç
+                        </button>
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="images/havay.jpg" alt="">
+                        <h1>Havay
+                        </h1>
+                        <p>Qril Toyuq, Ananas, Ekstra Mozzarella
+                        </p>
+                        <button type="button" class="btn btn-success openModal">
+                            Bunu Seç
+                        </button>
+
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="images/vestern_barbekyu.jpg" alt="">
+                        <h1>Vestern Barbekyu
+                        </h1>
+                        <p>Mal Əti, Göbələk, Barbekyu Sousu, Mozzarella Pendiri
+                        </p>
+                        <button type="button" class="btn btn-success openModal">
+                            Bunu Seç
+                        </button>
+
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="images/klassik_pepperoni.jpg" alt="">
+                        <h1>Klassik Pepperoni
+                        </h1>
+                        <p>Pepperoni, Ekstra Mozzarella
+                        </p>
+                        <button type="button" class="btn btn-success openModal">
+                            Bunu Seç
+                        </button>
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="images/chicken_parmesan_item.jpg" alt="">
+                        <h1>Çiken Parmezan
+                        </h1>
+                        <p>Toyuq Poppersləri, Parmesan, Göbələk, İtalyan Ədviyyatları, Mozzarella Pendiri, Sarımsaq
+                            Sousu
+                        </p>
+                        <button type="button" class="btn btn-success openModal">
+                            Bunu Seç
+                        </button>
+
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="images/hot_and_spaysi.jpg" alt="">
+                        <h1>Hot and Spaysi
+                        </h1>
+                        <p>Mal Əti, Pomidor, Yaşıl Bibər, Halapenyo Bibəri, Mozzarella Pendiri
+                        </p>
+                        <button type="button" class="btn btn-success openModal">
+                            Bunu Seç
+                        </button>
+
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="images/Marinera.jpg" alt="">
+                        <h1>Marinera
+                        </h1>
+                        <p>Ton Balığı, Yaşıl Bibər, Qara Zeytun, Mozzarella Pendiri
+                        </p>
+                        <button type="button" class="btn btn-success openModal">
+                            Bunu Seç
+                        </button>
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="images/little_italy.jpg" alt="">
+                        <h1>Little İtalya
+                        </h1>
+                        <p>Pepperoni, İtalyan Sosisi, Göbələk, Qara Zeytun, Oreqano, Mozzarella Pendiri
+                        </p>
+                        <button type="button" class="btn btn-success openModal">
+                            Bunu Seç
+                        </button>
+
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="images/chicken_buffalo.jpg" alt="">
+                        <h1>Çiken Baffalo
+                        </h1>
+                        <p>Toyuq Poppersləri, Vetçina, Baffalo Sousu, Ranç Sousu, Mozzarella Pendiri
+                        </p>
+                        <button type="button" class="btn btn-success openModal">
+                            Bunu Seç
+                        </button>
+
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="images/new_orleans_pizza.jpg" alt="">
+                        <h1>Nyu Orleans
+                        </h1>
+                        <p>Qarğıdalı, Qril Toyuq, Göbələk, Yaşıl Bibər, Sarımsaq Sousu, Mozzarella Pendiri
+                        </p>
+                        <button type="button" class="btn btn-success openModal">
+                            Bunu Seç
+                        </button>
+
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="images/johns_fav_pizza.jpg" alt="">
+                        <h1>Jonun Sevimli Pizzası
+                        </h1>
+                        <p>Pepperoni, Italyan Sosisi, Italyan Ədviyyatları, Romano Pendiri, Provolone Pendiri, Fontina
+                            Pendiri, Asiaqo Pendiri, Parmezan, Mozzarella Pendiri
+                        </p>
+                        <button type="button" class="btn btn-success openModal">
+                            Bunu Seç
+                        </button>
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="images/tuscan_pizza.jpg" alt="">
+                        <h1>Tuskan
+                        </h1>
+                        <p>Romano Pendiri, Provolone Pendiri, Fontina Pendiri, Asiaqo Pendiri, Parmezan, Mozzarella
+                            Pendiri, Italyan Ədviyyatları
+                        </p>
+                        <button type="button" class="btn btn-success openModal">
+                            Bunu Seç
+                        </button>
+
+                    </div>
+                    <div class="col-lg-3">
+                        <img src="images/Mushroom 320x220 px.jpg" alt="">
+                        <h1>Çiken Göbələk
+                        </h1>
+                        <p>Qril toyuq, Turşu xiyar, Göbələk, Mozzarella, Göbələk sousu
+                        </p>
+                        <button type="button" class="btn btn-success openModal">
+                            Bunu Seç
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="modal-container">
+            <div class="modal-content">
+                <div class="close">
+                    <h6>Bağla</h6>
+                    <button>
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div class="image">
+                    <img src="./images/1e07a33e1efba4cd5debe2d875439618.png" alt="">
+                </div>
+                <div class="modal-body">
+                    <h2>Papadias </h2>
+                </div>
+                <div class="controls">
+                    <div class="plus"><i class="fas fa-plus"></i></div>
+                    <div class="count">1</div>
+                    <div class="minus"><i class="fas fa-minus"></i></div>
+                    <div class="price">7 ₼ </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="basket">
+                        <sup>0</sup>
+                        <i class="fas fa-shopping-basket"></i>
+                    </div>
+                    <button class="add-basket">Səbətə at</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container my-5">
+
+            <footer class="text-center text-white" style="background-color: #AD0F14">
+                <div class="container">
+                    <section class="mt-5">
+                        <div class="row text-center d-flex justify-content-center pt-5">
+                            <div class="col-md-2">
+                                <h6 class="text-uppercase font-weight-bold">
+                                    <a href="about.html" class="text-white">Haqqımızda</a>
+                                </h6>
+                            </div>
+
+                            <div class="col-md-2">
+                                <h6 class="text-uppercase font-weight-bold">
+                                    <a href="faq.html" class="text-white">Sual-Cavab</a>
+                                </h6>
+                            </div>
+
+                            <div class="col-md-2">
+                                <h6 class="text-uppercase font-weight-bold">
+                                    <a href="about.html" class="text-white">Papa Talk - Şərtlər və Qaydalar</a>
+                                </h6>
+                            </div>
+
+                        </div>
+                    </section>
+
+                    <hr class="my-5" />
+
+
+
+                    <section class="text-center mb-5">
+                        <a target="_blank" href="https://www.facebook.com/papajohns.az/" class="text-white me-4">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a target="_blank" href="https://twitter.com/azpapajohns" class="text-white me-4">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+
+                        <a target="_blank" href="https://www.instagram.com/azpapajohns/" class="text-white me-4">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+
+                    </section>
+                </div>
+
+                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                    © PJA 2021
+
+                </div>
+            </footer>
+        </div>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/234d1695e2.js" crossorigin="anonymous"></script>
+    <script src="js/pizza.js"></script>
+</body>
+
+</html>

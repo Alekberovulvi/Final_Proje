@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="img/png" href="images/download.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/faq.css">
+    <title>Papa Johns | Yemək siafrişi | Pulsuz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="modal fade" id="giris" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email Ünvanı</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Şifrə</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Məni yadda saxla</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Daxil ol</button>
+                    </form>
+                    <span style="margin-left: 360px;
+                                    font-size: 12px;">Hesabınız Yoxdur?</span>
+                    <div class="text-center fs-6"><button class="btn btn-secondary" data-bs-toggle="modal"
+                            data-bs-target="#qeydiyyat" style="    margin-left: 340px;" href="#">Qeydiyatdan Keçin</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <div class="modal fade" id="qeydiyyat" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="text" class="form-label">Ad</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="text" class="form-label">Soyad</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Telefon Nömrəsi</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email Ünvanı</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Şifrə</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword2" class="form-label">Şifrənin Bərpası</label>
+                            <input type="password" class="form-control" id="exampleInputPassword2">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Məni yadda saxla</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Qeydiyyat</button>
+                    </form>
+                    <button data-bs-toggle="modal" data-bs-target="#giris" class="btn btn-warning" style="margin-left: 300px;
+                                    margin-top: -37px;" href="#">Giriş Ekranına Geri Dönun</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+        
+        <div class="header-top">
+            <div class="header-list d-flex justify-content-between">
+                <ul class="bigmenu">
+                    <li>
+                        <a class="right" href="bounce.html">PapaBonus</a>
+                    </li>
+                </ul>
+
+                <div class="button-container d-flex justify-content-between">
+                    <button style="font-size: 25px;" type="button" class="btn btn-black" data-bs-toggle="modal" data-bs-target="#giris">
+                        Giriş
+                    </button>
+                    <button style="margin-left: -444px; font-size: 25px;" type="button" class="btn btn-black" data-bs-toggle="modal"
+                    data-bs-target="#qeydiyyat">
+                    Qeydiyyat
+                </button>
+                </div>
+
+                <div class="header-user">
+                    <div class="col-i col-i-f">
+                        <a href="#">
+                            <div class="basket-wrapper">
+                                <i class="fas fa-shopping-basket"></i>
+                                <span class="price">0 ₼ </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar">
+            <a href="index.html" class="nav-logo"><img src="images/pj_logo_web_new.png" alt=""></a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="campaign.html" class="nav-link">Kampaniyalar</a>
+                </li>
+                <li class="nav-item">
+                    <a href="papadias.html" class="nav-link">Papadias</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pizza.html" class="nav-link">Pizza</a>
+                </li>
+                <li class="nav-item">
+                    <a href="snack.html" class="nav-link">Qəlyanaltı</a>
+                </li>
+                <li class="nav-item">
+                    <a href="salat.html" class="nav-link">Salat</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pasta.html" class="nav-link">Pasta</a>
+                </li>
+                <li class="nav-item">
+                    <a href="drink.html" class="nav-link">İçki</a>
+                </li>
+                <li class="nav-item">
+                    <a href="desert.html" class="nav-link">Desert</a>
+                </li>
+                <li class="nav-item">
+                    <a href="sous.html" class="nav-link">Sous</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="promo">
+            <div class="promo-wrapper">
+                <p>
+                    Promo kodunuz var?
+                    <span>
+                        Endirimdən istifadə edin!
+                    </span>
+                </p>
+                <input type="text" class="promo-code" placeholder="Promo kodu daxil edin">
+                <a href="#" class="btn btn_green js-activate-promo-code">Ok</a>
+            </div>
+        </section>
+        <section>
+            <h1>Ən Çox Verilən Suallar</h1>
+            <div class="context">
+                <h3>İNTERNET VASİTƏSİLƏ ONLAYN SİFARİŞİ NECƏ ETMƏK OLAR?</h3>
+                <p>Hər şey çox sadədir: ilk öncə Siz axtardığınız məhsulu tapmalı və onu sifariş səbətinə əlavə
+                    etməlisiniz. “Sifariş səbəti” səhifənin sağ tərəfində yerləşir. Həmin düyməyə basdıqda “Səbət”-də
+                    olan bütün məhsulların siyahısını görə bilərsiniz. “Sifarişi göndər” düyməsi siyahının aşağı
+                    hissəsində yerləşir. Bu düymənin üstünə klik edərək, Siz çatdırılma ünvanı və şəxsi məlumatlarınızı
+                    daxil edə bilərsiniz. Çatdırılma ünvanını qeyd edin, səhifədəki vacib sahələri doldurun və “Ödənişə
+                    keç” düyməsinə basın. Ödəniş etdikdən sonra Sizin sifarişiniz həmin anda təsdiq edilir və restoranda
+                    pizza hazırlanmağa başlanır.</p>
+                <h3>RESTORANIN VERİLMİŞ SİFARİŞİ QƏBUL ETDİYİNİ NECƏ BİLMƏK OLAR?</h3>
+                <p>Onlayn sifariş zamanı qeyd etdiyiniz elektron ünvanına sifarişinizin qəbul edilməsi haqqında təsdiq
+                    mesajı göndərilir. Bu mesaj restoranın verdiyiniz sifarişi qəbul etdiyini bildirir. Sifarişiniz
+                    barədə ətraflı məlumat almaq üçün Siz *7272 telefon nömrəsi vasitəsilə restoranla əlaqə saxlaya
+                    bilərsiniz.
+                </p>
+                <h3>
+                    ONLAYN SİFARİŞİN ÇATDIRILMASI ÜÇÜN MİNİMAL MƏBLƏĞ NƏ QƏDƏRDİR?
+                </h3>
+                <p>
+                    Sifarişin minimal dəyəri - 10 AZN təşkil edir.
+                </p>
+                <h3>
+                    SİFARİŞ TƏXMİNƏN NƏ QƏDƏR MÜDDƏT ƏRZİNDƏ ÇATDIRILIR?
+                </h3>
+                <p>
+                    Sifarişin təxmini çatdırılma vaxtı 35-45 dəqiqə təşkil edir.
+                </p>
+                <h3>
+                    ONLAYN SİFARİŞİ ETDİKDƏN SONRA, SİFARİŞİ ŞƏXSƏN GƏLİB GÖTÜRMƏK MÜMKÜNDÜRMÜ?
+                </h3>
+                <p>
+                    Əlbəttə. Sifariş edən zaman Siz “Al Apar” funksiyasını seçə bilərsiniz. Bu halda Siz sifarişinizin
+                    təsdiq olunması haqqında məktub alacaqsınız.
+                </p>
+                <h3>
+                    NƏ ÜÇÜN İSTƏNİLƏN RESTORANDAN SİFARİŞ ETMƏK OLMAZ?
+                </h3>
+                <p>
+                    Pizzanı isti və təzə olaraq müştəriyə çatdırmaq üçün hər bir restoranın şəxsi çatdırılma zonası var.
+                    Əgər Siz pizzanın seçdiyiniz hər hansı bir restoran tərəfindən hazırlamasını istəyirsinizsə, bunun
+                    üçün siz sifariş edən zaman “Al Apar” seçimindən istifadə etməlisiniz.
+                </p>
+                <h3>
+                    MƏN HESAB YARATMADAN MENYU İLƏ TANIŞ OLA BİLƏRƏM ?
+                </h3>
+                <p>
+                    Əlbəttə. Sizi maraqlandıran məhsulun növünü seçməlisiniz. Bu zaman hesab yaratmaq zərurəti olmadan,
+                    siz menyuya, məhsulların təsviri və qiymətlərinə baxa bilərsiniz.
+                </p>
+                <h3>
+                    SİFARİŞİN ÇATDIRILMASI ZAMANI KURYERƏ MÜŞTƏRİNİN ÇATDIRILMA HAQQINI ÖDƏMƏSİ ÜÇÜN KİFAYƏT QƏDƏR NAĞD
+                    VƏSAİT GƏTİRMƏSİ BARƏDƏ NECƏ MƏLUMAT VERMƏK MÜMKÜNDÜR?
+                </h3>
+                <p>
+                    Siz sifarişlə bağlı məlumatları qeyd edən zaman, “Kuryer üçün əlavə məlumat” hissəsində bununla
+                    bağlı məlumat verə bilərsiniz, məsələn, “50 AZN-dən artıq qalan pulu qaytarmaq lazımdır”.
+                </p>
+                <h3>
+                    İNTERNET VASİTƏSİLƏ SİFARİŞ ZAMANI MÜŞTƏRİ ÜÇÜN ƏLVERİŞLİ ÖDƏNİŞ NÖVLƏRİ HANSILARDIR?
+                </h3>
+                <p>
+                    İnternet vasitəsilə sifariş zamanı, ödənişin həyata keçirilməsi üçün 3 növ ödəmə vasitəsi təklif
+                    edilir: onlayn kart vasitəsilə ödəniş, kuryerə kart vasitəsilə ödəniş və nağd şəkildə ödəniş.
+                </p>
+                <h3>
+                    TƏKRAR SİFARİŞ FUNKSİYASI NECƏ İŞLƏYİR?
+                </h3>
+                <p>
+                    Sifarişin təkrar edilməsi funksiyası əvvəlki sifarişlərdən birini tez təkrar etməyə sizə imkan
+                    verir. Bu funksiya yalnız sizin sistemə daxil olmaq üçün icazəniz olduğu halda mümkündür. Etdiyiniz
+                    sifarişlərin siyahısına baxmaq üçün, siz şəxsi kabinetinizə daxil olaraq “Sifariş tarixçəsi”
+                    hissəsinə nəzər yetirə bilərsiniz. Hər bir sifarişin yanında “Sifarişi təkrar etmək” düyməsi var. Bu
+                    düyməyə basdıqda sifariş təkrar olaraq “Səbət”-ə əlavə edilir.
+                </p>
+                <h3>
+                    NÖVBƏTİ GÜN ÜÇÜN SİFARİŞ VERMƏK MÜMKÜNDÜRMÜ?
+                </h3>
+                <p>
+                    Bəli, siz növbəti gün üçün sifariş edə bilərsiniz. Bu halda sifarişi tərtib edən zaman siz
+                    “Çatdırılma vaxtı” hissəsində sifarişin çatdırılması üçün zəruri tarixi qeyd etməlisiniz. Zəruri
+                    tarixi və çatdırılma vaxtını qeyd etmək üçün “Vaxtı seç” düyməsini seçməlisiniz. Heç bir tarix qeyd
+                    edilmədiyi halda bütün sifarişlər mümkün qədər qısa müddət ərzində çatdırılır.
+                </p>
+                <h3>
+                    ŞƏXSİ PAROLU NECƏ DƏYİŞDİRMƏK /XATIRLAMAQ/ OLAR?
+                </h3>
+                <p>
+                    Şəxsi parolunuzu unutduğunuz zaman, siz sayta daxil olacaq və “Qiriş/Qeydiyyat” düyməsinə
+                    basmalısınız . Açılan formada “Şifrəni unutmusunuz?” düyməsinə toxunaraq, qeydiyyat zamanı istifadə
+                    olunan elektron poçt ünvanını və ya telefon nömrəsini qeyd etməli və “OK” düyməsinə basmalısınız.
+                    Telefon nömrənizi qeyd etdiyiniz halda, telefonunuza yeni dörd rəqəmli parol ilə SMS gələcək.
+                    Elektron poçt ünvanınızı qeyd etdiyiniz halda isə, elektron ümvanınıza parolun dəyişdirilməsi üçün
+                    link göndəriləcəkdir. Məktubun spam qovluğuna düşməsi ehtimalı da mümkündür. Bunun üçün diqqətli
+                    olmağınızı məsləhət görürük: parol bərpa olunmur, o sadəcə yeni parol ilə əvəz oluna bilər. Əgər Siz
+                    parolu dəyişdirmək istəyirsinizsə, bu halda “Şəxsi kabinet”ə daxil olub, səhifənin birinci
+                    hissəsində parolun dəyişdirilməsi funksiyasından istifadə edə bilərsiniz.
+                </p>
+                <h3>
+                    PİZZANIN İSTİFADƏ MÜDDƏTİ NƏ QƏDƏRDİR?
+                </h3>
+                <p>
+                    Məhsulun hazırlanması anından onun istifadə müddəti:
+
+                    +2˚С-dən +6˚С-yə qədər temperaturda – 24 saat,
+                    isti vəziyyətdə isə 3 saat təşkil edir.
+                </p>
+                <h3>
+                    PAPABONUS NƏ DEMƏKDİR?
+                </h3>
+                <p>
+                    PapaBonus – Sizə bonus ballarını qazanmaq, yığmaq və toplanan bonus ballarını istifadə etmək imkanı
+                    verən bir proqramdır.
+                </p>
+                <h3>
+                    BONUS BALLARINI NECƏ QAZANMAQ OLAR?
+                </h3>
+                <p>
+                    - Siz, bizim sayt vasitəsilə onlayn sifariş zamanı bonus balları qazanmaq imkanı əldə edirsiniz.
+                    Sifarişin istər bizim tərəfimizdən çatdırılması zamanı, istərsə də şəxsən sizin tərəfinizdən
+                    restorandan götürülməsi halında, siz xərclədiyiniz hər 1 AZN məbləğə görə 10 bonus balı
+                    qazanırsınız.
+
+                    - “PapaBonus” hissəsinə daxil olaraq “Əlavə balları qazanmaq” hissəsinə keçməlisiniz. Siz
+                    tapşırıqları yerinə yetirən zaman müəyyən bonus balı qazanırsınız.
+
+                    - Sizə hədiyyə olunan hər beydjikə görə, Siz 15 bonus balı alırsınız. “PapaBonus” bölməsinə daxil
+                    olaraq “Beydjiklərın siyahısı” hissəsinə keçməlisiniz İstənilən beydjikə basaraq siz ballar
+                    qazanaraq onun necə əldə edilməsi barədə öyrənə bilərsiniz.
+                </p>
+                <h3>
+                    BONUS BALLARINI NECƏ İSTİFADƏ ETMƏK OLAR?
+                </h3>
+                <p>
+                    Bonus ballarını sadəcə hədiyyələri almaq üçün istifadə edə bilərsiniz. “PapaBonus” bölməsinə daxil
+                    olaraq “Hədiyyələrin siyahısı” hissəsinə keçməlisiniz. Burada siz hədiyyəni almaq üçün lazım olan
+                    balların miqdarı və qeyd olunan hədiyyələrin siyahısı ilə tanış ola bilərsiniz. Kifayət qədər bonus
+                    balınız olduğu halda, seçdiyiniz hədiyyənin üzərinə klik edərək, hədiyyəni “Səbət”-ə əlavə edə
+                    bilərsiniz. Sifariş tamamlandıqda, hədiyyəyə görə müəyyən edilmiş bal toplanmış bonus ballarından
+                    çıxılır.
+                </p>
+                <h3>
+                    BALLARIN İSTİFADƏ MÜDDƏTİ VARMI?
+                </h3>
+                <p>
+                    Bəli, bonus balları 360 gün müddətində etibarlıdır. Siz bu müddət ərzində heç bir alış-veriş
+                    etmədiyiniz təqdirdə, sizin ballarınız silinəcəkdir.
+                </p>
+                <h3>
+                    NƏ ÜÇÜN BONUS BALLARI SİFARİŞ ETDİKDƏN DƏRHAL SONRA ƏLAVƏ EDİLMİR?
+                </h3>
+                <p>
+                    Loyallıq proqramının balları sifarişin ödənilməsindən sonra 24 saat ərzində təsdiq olunur. Bu vaxta
+                    qədər onlar “təsdiqlənməmiş ballar” kimi nəzərdə tutulur.
+                </p>
+                <h3>
+                    PAPABONUSU SİZİN TƏKLİF ETDİYİNİZ DİGƏR AKSİYALARLA EYNİ ZAMANDA İSTİFADƏ ETMƏK MÜMKÜNDÜRMÜ?
+                </h3>
+                <p>
+                    Bəli, Siz sifarişi yerinə yetirən zaman həm bonus ballarını, həm də promo-kodlu aksiyadan istifadə
+                    edərək hədiyyə mallarını əldə edə bilərsiniz.
+                </p>
+                <h3>
+                    PROMO-KOD NƏDİR?
+                </h3>
+                <p>
+                    Bu kodlaşdırılmış söz aksiyanı aktivləşdirməyə yaxud hədiyyə əldə etməyə imkan verən simvollar
+                    toplusudur. Promo-kod bir dəfəlik və ya bir neçə dəfəlik ola bilər. Bir dəfə üçün olan promo-kodu
+                    aksiya keçirələn zaman bir dəfə istifadə etmək olar. Çox dəfəlik promo-kodu isə hədsiz sifarişlər üç
+                </p>
+                <h3>
+                    PROMO-KODU NECƏ ƏLDƏ ETMƏK OLAR?
+                </h3>
+                <p>
+                    Feysbukda bizi izləyin, poçtla bildiriş alın, bizim sayta daxil olun, yeniliklərdən siz də xəbərdar
+                    olun. Bu halda, əlbəttə ki, Siz mütləq promo-kodlar və yeni aksiyalar haqqında məlumat əldə
+                    edəcəksiniz.
+                </p>
+                <h3>
+                    AKSİYANI AKTİVLƏŞDİRMƏK ÜÇÜN PROMO-KODU HARA YAZMAQ LAZIMDIR?
+                </h3>
+                <p>
+                    Siz öncə restoranımızın saytına daxil olmalısınız. Menyunun aşağı hissəsində siz promo-kodun daxil
+                    edilməsi üçün lazımı hissəni görə bilərsiniz. Promo-kodun uğurla daxil edilməsindən sonra həmin
+                    sütunda aksiyanın şərtləri və hədiyyə barəsində məlumat əldə etmək mümkündür. Hədiyyə, aksiya
+                    şərtlərinin düzgün yerinə yetirilməsi ilə avtomatik olaraq əlavə edilir.
+                </p>
+                <h3>
+                    PROMO-KODU DAXİL EDİRƏM, LAKİN HEÇNƏ ALINMIR?
+                </h3>
+                <p>
+                    Promo-kodun doğru olmamasının bir neçə səbəbi ola bilər:
+
+                    - Siz bir dəfə üçün nəzərdə tutulmuş və sizə göndərilmiş promo-kodu artıq istifadə etmisiniz;
+
+                    - Aksiyanın etibarlılıq müddəti artıq bitib;
+
+                    - Promo-kod səhv daxil edilmişdir. Baş hərfi və sətri hərfləri nəzərə alaraq Sizə göndərilən
+                    promo-kodun düzgün daxil edildiyindən əmin olmalısınız. Eyni zamanda, siz, əlavə simvolların daxil
+                    edilib-edilmədiyindən də əmin olmalısınız. Promo-kodu kopya etmək olmaz, onu əl ilə yazmaq lazımdır.
+                </p>
+                <h3>
+                    BİR SİFARİŞİ YERİNƏ YETİRƏN ZAMAN AKSİYANI PROMO-KOD VƏ VƏ PROQRAMIN BONUS BALLARI İLƏ EYNİ ANDA
+                    İSTİFADƏ ETMƏK MÜMKÜNDÜRMÜ?
+                </h3>
+                <p>
+                    Bəli. Siz bir sifariş etdiyiniz zaman aksiya üzrə hədiyyə əldə edə bilər, həmçinin bonus ballarını
+                    məhsula dəyişə bilər, və eləcə də yeni ballar qazana bilərsiniz.
+                </p>
+                <h3>
+                    PAPA JOHN’S PİZZASININ ÖLÇÜLƏRİ NƏ QƏDƏRDİR?
+                </h3>
+                <p>
+                    Ənənəvi xəmirlə hazırlanan pizzanın ölçüləri 18 sm – 4 dilim, 23 sm – 6 dilim, 30 sm – 8 dilim, 35
+                    sm – 10 dilim olur. Nazik xəmirlə hazırlanan pizzanın ölçüləri 23 sm – 6 dilim, 30 sm – 8 dilim, 35
+                    sm – 10 dilim təşkil edir.
+                </p>
+                <h3>
+                    ƏNƏNƏVİ XƏMİRİN NAZİK XƏMİRDƏN FƏRQİ NƏDƏDİR?
+                </h3>
+                <p>
+                    Ənənəvi xəmir nazik xəmirdən pizzanın kənarları ilə fərqlənir. Nazik xəmir ənənəvi xəmir kimi eyni
+                    qaydada qarışdırılır, lakin onun hazırlanma prosesi nazik lay-lay kreker xəmiri effektinə nail olmaq
+                    üçün başqa bir texnologiya ilə hazırlanır. Ənənəvi xəmirlə pizzanı sifariş edən zaman, Sizə əlavə
+                    olaraq pulsuz bir ədəd sarımsaq sousu verilir.
+                </p>
+                <h3>
+                    ŞƏXSİ PİZZANI HAZIRLAMAQ MÜMKÜNDÜRMÜ?
+                </h3>
+                <p>
+                    Şəxsi pizzanı hazırlamaq mümküm deyil. Lakin Siz pizzaya istənilən inqrediyenti əlavə etmək və ya
+                    hər hansı inqrediyenti çıxartmaq hüququna maliksiniz.
+                </p>
+                <h3>
+                    MƏHSULLARI HARDAN ALIRSINIZ?
+                </h3>
+                <p>
+                    Bütün məhsulların 80-90% biz xaricdən alırıq. Yerli tədarükçüdən və xaricdən alınan bütün məhsullar
+                    ciddi keyfiyyət yoxlamasından keçir, yerli şirkətlər-tədarükçülər isə şirkətin standartlara uyğun
+                    audit keçir. Pizzanın hazırlanmasında biz yalnız yüksək keyfiyyətli təzə tərəvəz və məhsullardan
+                    istifadə edirik.
+                </p>
+                <h3>
+                    MƏHSULLARINIZA DAİR KEYFİYYƏT GÖSTƏRİCİSİ “HALAL” - SERTİFİKATINIZ VARMI?
+                </h3>
+                <p>
+                    Bütün məhsullarımıza dair keyfiyyət sertifikatlarımız var. Ət məhsulları üçün “Halal” sertifikatı da
+                    var. Siz bununla bağlı olaraq istənilən vaxt menecerlərə müraciət edə bilərsiniz. Bu halda tələb
+                    etdiyiniz sertifikatlar sizə təqdim olunmalıdır.
+                </p>
+                <h3>
+                    XƏMİRİ YOĞURAN ZAMAN HANSI SƏBƏBƏ GÖRƏ ƏLCƏKDƏN İSTİFADƏ OLUNMUR?
+                </h3>
+                <p>
+                    - Xəmirin istehsalında və onunla işləyən zaman, xəmir əlcəklərə yapışdığı səbəbindən, dünyanın heç
+                    bir ölkəsində lateksdən hazırlanmış əlcəklərdən istifadə olunmur. Çünki əlcək cırılan zaman onun
+                    parçalarının xəmirə düşməsi ehtimalı mümkündür. Şirkətin əməkdaşları hər 30 dəqiqədən bir və ya iş
+                    yerini tərk edən zaman əllərini yuyur və dezinfeksiya edir. Həmçinin istehsalatdan öncə hər səhər
+                    əməkdaşların əlləri üzərində kəsik və yaraların olub-olmaması yoxlanılır və əllərin gigiyenik
+                    vəziyyətdə olması yoxlanılır.
+
+                    - kəsik və yaralar olduğu təqdirdə, xəmirin hazırlanmasında əlcəklərdən istifadə edilir və onun
+                    parçalarının xəmirə düşməsinin qarşısını almaq üçün açıq rəngdə əlcəklərdən istifadə olunur.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container my-5">
+
+            <footer class="text-center text-white" style="background-color: #AD0F14">
+                <div class="container">
+                    <section class="mt-5">
+                        <div class="row text-center d-flex justify-content-center pt-5">
+                            <div class="col-md-2">
+                                <h6 class="text-uppercase font-weight-bold">
+                                    <a href="about.html" class="text-white">Haqqımızda</a>
+                                </h6>
+                            </div>
+
+                            <div class="col-md-2">
+                                <h6 class="text-uppercase font-weight-bold">
+                                    <a href="faq.html" class="text-white">Sual-Cavab</a>
+                                </h6>
+                            </div>
+
+                            <div class="col-md-2">
+                                <h6 class="text-uppercase font-weight-bold">
+                                    <a href="about.html" class="text-white">Papa Talk - Şərtlər və Qaydalar</a>
+                                </h6>
+                            </div>
+
+                        </div>
+                    </section>
+
+                    <hr class="my-5" />
+
+
+
+                    <section class="text-center mb-5">
+                        <a target="_blank" href="https://www.facebook.com/papajohns.az/" class="text-white me-4">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a target="_blank" href="https://twitter.com/azpapajohns" class="text-white me-4">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+
+                        <a target="_blank" href="https://www.instagram.com/azpapajohns/" class="text-white me-4">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+
+                    </section>
+                </div>
+
+                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                    © PJA 2021
+
+                </div>
+            </footer>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/234d1695e2.js" crossorigin="anonymous"></script>
+    <script src="js/faq.js"></script>
+</body>
+
+</html>
