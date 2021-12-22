@@ -1,0 +1,18 @@
+﻿@model CampaignVM
+
+<section>
+    <div class="container">
+        <div class="row">
+            @foreach (Campaign campaign in Model.Campaign)
+            {
+                <div class="col-lg-3">
+                    <img src="~/images/@campaign.Image" alt="">
+                    <a href="brithday.html">Ətraflı məlumat</a>
+                </div>
+
+            }
+
+        </div>
+    </div>
+
+</section>

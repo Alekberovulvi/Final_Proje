@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Final_Layihe</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20211222072023_UpdateCategryTable.cs" />
+    <Compile Remove="Migrations\20211222072023_UpdateCategryTable.Designer.cs" />
+    <Compile Remove="Migrations\20211222072141_UpdateCategry_1Table.cs" />
+    <Compile Remove="Migrations\20211222072141_UpdateCategry_1Table.Designer.cs" />
+    <Compile Remove="Migrations\20211222072223_UpdateCategry_2Table.cs" />
+    <Compile Remove="Migrations\20211222072223_UpdateCategry_2Table.Designer.cs" />
+    <Compile Remove="Migrations\20211222072612_UpdateCategry_2Table.cs" />
+    <Compile Remove="Migrations\20211222072612_UpdateCategry_2Table.Designer.cs" />
+    <Compile Remove="Migrations\20211222073001_UpdateCategry_2Table.cs" />
+    <Compile Remove="Migrations\20211222073001_UpdateCategry_2Table.Designer.cs" />
+    <Compile Remove="Migrations\20211222073408_UpdateCategry_2Table.cs" />
+    <Compile Remove="Migrations\20211222073408_UpdateCategry_2Table.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.22" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.22" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.22">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>

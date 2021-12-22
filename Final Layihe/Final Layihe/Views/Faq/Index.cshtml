@@ -1,0 +1,15 @@
+﻿@model FaqVM
+
+<section>
+    <h1>@Model.Faq.Title</h1>
+    <div class="context">
+        @foreach (Faqres faqres in Model.Faqres)
+        {
+            <h3>@faqres.Title</h3>
+            <p>
+                @faqres.Desc
+            </p>
+        }
+
+    </div>
+</section>

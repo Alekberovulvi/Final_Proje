@@ -1,0 +1,20 @@
+﻿@model BounceVM
+
+    <section>
+        <div class="scope">
+            <img src="~/images/@Model.BounceImg.Image" alt="">
+        </div>
+        <div class="img-scope position-relative">
+            <img style="height:100px;width: 100%;margin-bottom: -172px;" src="~/images/@Model.Bounce.Image" alt="">
+            <div style="bottom: 1200%;
+                left: 24%;
+                max-width: 60%;" class="text-container d-table position-absolute text-center">
+                <p style="font-size: 16px;" class="d-table-row text-center">
+                    @Model.Bounce.Desc
+                </p>
+                <button style="top:150%;right:50%" data-bs-toggle="modal" data-bs-target="#giris" class="btn btn-success position-absolute">Daxil olmaq</button>
+            </div>
+
+
+        </div>
+    </section>

@@ -1,0 +1,62 @@
+﻿@model PapadiasVM
+
+<section class="pizza">
+    <div class="container">
+        <div class="row">
+            @foreach (Papadias papadias in Model.Papadias)
+            {
+                <div class="col-lg-3">
+                    <img src="~/images/@papadias.Image" alt="">
+                    <h1>
+                        @papadias.Title
+                    </h1>
+                    <p>
+                        @papadias.Desc
+                    </p>
+                    <a asp-controller="Papadias" asp-action="GetDetails" asp-route-Id="@papadias.Id" class="btn btn-success openModal">
+                        Bunu Seç
+                    </a>
+                </div>
+
+            }
+
+        </div>
+    </div>
+</section>
+
+<div class="modal-container">
+    <div class="modal-content">
+        <div class="close">
+            <h6>Bağla</h6>
+            <button>
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="modal-footer">
+            <div class="basket">
+                <sup>0</sup>
+                <i class="fas fa-shopping-basket"></i>
+            </div>
+            <button class="add-basket">Səbətə at</button>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    let openModals = document.querySelectorAll('.openModal');
+    let closeModals = document.querySelectorAll('.modal-container .close');
+
+    openModals.forEach(openModal => {
+        openModal.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector('.modal-container').style.display = 'block';
+        });
+    });
+
+    closeModals.forEach(closeModal => {
+        closeModal.addEventListener('click', function () {
+            document.querySelector('.modal-container').style.display = 'none';
+        })
+    });
+</script>

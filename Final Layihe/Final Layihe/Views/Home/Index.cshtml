@@ -1,0 +1,14 @@
+﻿@model HomeVM
+@{ 
+    Layout = "_Layout";
+}
+<section class="slider">
+    <div class="owl-carousel owl-theme">
+        @foreach (Slider slider in Model.Sliders)
+        {
+            <div class="item">
+                <img src="~/images/@slider.Image" alt="">
+            </div>
+        }
+    </div>
+</section>
