@@ -84,3 +84,12 @@ C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_SnackDetailPartial.cshtml.g.cs
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Snack\Index.cshtml.g.cs
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_SalatDetailPartial.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Salat\Index.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_PastaDetailPartial.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Pasta\Index.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_DrinkDetailPartial.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Drink\Index.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_DesertDetailPartial.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Desert\Index.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_SousDetailPartial.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Sous\Index.cshtml.g.cs

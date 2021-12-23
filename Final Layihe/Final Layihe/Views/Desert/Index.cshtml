@@ -1,0 +1,26 @@
+﻿@model DesertVM
+
+<section class="pizza">
+    <div class="container">
+        <div class="row">
+            @foreach (Desert desert in Model.Deserts)
+            {
+                <div class="col-lg-3">
+                    <img src="~/images/@desert.Image" alt="">
+                    <h1>
+                        @desert.Title
+                    </h1>
+
+                    <a asp-controller="Desert" asp-action="GetDetails" asp-route-Id="@desert.Id" id="choose" class="btn btn-success openModal">
+                        Bunu Seç
+                    </a>
+                </div>
+
+            }
+        </div>
+    </div>
+</section>
+
+<div class="modal-container">
+
+</div>

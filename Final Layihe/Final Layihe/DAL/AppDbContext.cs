@@ -19,10 +19,13 @@ namespace Final_Layihe.DAL
         public virtual DbSet<Papadias> Papadias { get; set; }
         public virtual DbSet<Category> Categories { get; set; }
         public virtual DbSet<About> Abouts { get; set; }
-        public virtual DbSet<Brithday> Brithdays { get; set; }
         public virtual DbSet<Pizza> Pizzas { get; set; }
         public virtual DbSet<Snack> Snacks { get; set; }
         public virtual DbSet<Salat> Salats { get; set; }
+        public virtual DbSet<Pasta> Pastas { get; set; }
+        public virtual DbSet<Drink> Drinks { get; set; }
+        public virtual DbSet<Desert> Deserts { get; set; }
+        public virtual DbSet<Sous> Sous { get; set; }
 
     }
 }

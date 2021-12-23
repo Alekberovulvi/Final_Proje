@@ -1,0 +1,28 @@
+﻿@model SalatVM
+
+<section class="pizza">
+    <div class="container">
+        <div class="row">
+            @foreach (Salat salat in Model.Salats)
+            {
+                <div class="col-lg-3">
+                    <img src="~/images/@salat.Image" alt="">
+                    <h1>
+                        @salat.Title
+                    </h1>
+                    <p>
+                        @salat.Desc
+                    </p>
+                    <a asp-controller="Salat" asp-action="GetDetails" asp-route-Id="@salat.Id" id="choose" class="btn btn-success openModal">
+                        Bunu Seç
+                    </a>
+                </div>
+
+            }
+        </div>
+    </div>
+</section>
+
+<div class="modal-container">
+
+</div>

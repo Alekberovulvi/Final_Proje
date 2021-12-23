@@ -1,0 +1,28 @@
+﻿@model PastaVM
+
+<section class="pizza">
+    <div class="container">
+        <div class="row">
+            @foreach (Pasta pasta in Model.Pastas)
+            {
+                <div class="col-lg-3">
+                    <img src="~/images/@pasta.Image" alt="">
+                    <h1>
+                        @pasta.Title
+                    </h1>
+                    <p>
+                        @pasta.Desc
+                    </p>
+                    <a asp-controller="Pasta" asp-action="GetDetails" asp-route-Id="@pasta.Id" id="choose" class="btn btn-success openModal">
+                        Bunu Seç
+                    </a>
+                </div>
+
+            }
+        </div>
+    </div>
+</section>
+
+<div class="modal-container">
+
+</div>

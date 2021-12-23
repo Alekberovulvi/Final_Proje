@@ -1,0 +1,26 @@
+﻿@model SousVM
+
+<section class="pizza">
+    <div class="container">
+        <div class="row">
+            @foreach (Sous sous in Model.Sous)
+            {
+                <div class="col-lg-3">
+                    <img src="~/images/@sous.Image" alt="">
+                    <h1>
+                        @sous.Title
+                    </h1>
+
+                    <a asp-controller="Sous" asp-action="GetDetails" asp-route-Id="@sous.Id" id="choose" class="btn btn-success openModal">
+                        Bunu Seç
+                    </a>
+                </div>
+
+            }
+        </div>
+    </div>
+</section>
+
+<div class="modal-container">
+
+</div>
