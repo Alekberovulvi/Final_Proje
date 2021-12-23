@@ -1,29 +1,28 @@
-﻿@model PapadiasVM
+﻿@model PizzaVM
 
 <section class="pizza">
     <div class="container">
         <div class="row">
-            @foreach (Papadias papadias in Model.Papadias)
+            @foreach (Pizza pizza in Model.Pizzas)
             {
                 <div class="col-lg-3">
-                    <img src="~/images/@papadias.Image" alt="">
+                    <img src="~/images/@pizza.Image" alt="">
                     <h1>
-                        @papadias.Title
+                        @pizza.Title
                     </h1>
                     <p>
-                        @papadias.Desc
+                        @pizza.Desc
                     </p>
-                    <a asp-controller="Papadias" asp-action="GetDetails" asp-route-Id="@papadias.Id" id="choose" class="btn btn-success openModal">
+                    <a asp-controller="Pizza" asp-action="GetDetails" asp-route-Id="@pizza.Id" id="choose" class="btn btn-success openModal">
                         Bunu Seç
                     </a>
                 </div>
 
             }
-
         </div>
     </div>
 </section>
 
 <div class="modal-container">
-    
+
 </div>
