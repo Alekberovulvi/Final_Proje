@@ -26,6 +26,11 @@ namespace Final_Layihe.DAL
         public virtual DbSet<Drink> Drinks { get; set; }
         public virtual DbSet<Desert> Deserts { get; set; }
         public virtual DbSet<Sous> Sous { get; set; }
+        public virtual DbSet<Brithday> Brithdays { get; set; }
+        public virtual DbSet<Cold> Colds { get; set; }
+        public virtual DbSet<Party> Parties { get; set; }
+        public virtual DbSet<HandHeld> HandHelds { get; set; }
+        public virtual DbSet<Classic> Classics { get; set; }
 
     }
 }

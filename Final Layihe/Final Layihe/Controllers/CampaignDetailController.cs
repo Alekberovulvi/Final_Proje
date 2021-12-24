@@ -20,10 +20,47 @@ namespace Final_Layihe.Controllers
         {
             CampaignDetailVM campaignDetailVM = new CampaignDetailVM
             {
-                Brithday = await _context.Brithdays.FirstOrDefaultAsync()
+                Brithdays = await _context.Brithdays.ToListAsync()
             };
             return View(campaignDetailVM);
         }
 
+        public async Task<IActionResult> HandHeld()
+        {
+            CampaignDetailVM campaignDetailVM = new CampaignDetailVM
+            {
+                HandHelds = await _context.HandHelds.ToListAsync()
+            };
+            return View(campaignDetailVM);
+        }
+
+        public async Task<IActionResult> Cold()
+        {
+            CampaignDetailVM campaignDetailVM = new CampaignDetailVM
+            {
+                Colds = await _context.Colds.ToListAsync()
+            };
+            return View(campaignDetailVM);
+        }
+
+        public async Task<IActionResult> Party()
+        {
+            CampaignDetailVM campaignDetailVM = new CampaignDetailVM
+            {
+                Parties = await _context.Parties.ToListAsync()
+            };
+
+            return View(campaignDetailVM);
+        }
+
+        public async Task<IActionResult> Classic()
+        {
+            CampaignDetailVM campaignDetailVM = new CampaignDetailVM
+            {
+                Classics = await _context.Classics.ToListAsync()
+            };
+
+            return View(campaignDetailVM);
+        }
     }
 }
