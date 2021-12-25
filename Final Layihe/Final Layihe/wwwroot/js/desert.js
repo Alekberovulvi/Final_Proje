@@ -1,27 +1,10 @@
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
-
-hamburger.addEventListener("click", mobileMenu);
-
-function mobileMenu() {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
-}
-
-const navLink = document.querySelectorAll(".nav-link");
-
-navLink.forEach(n => n.addEventListener("click", closeMenu));
-
-function closeMenu() {
-    hamburger.classList.remove("active");
-    navMenu.classList.remove("active");
-}
-
   let openModals = document.querySelectorAll('.openModal');
   let closeModals = document.querySelectorAll('.modal-container .close');
 
   openModals.forEach(openModal=>{
-    openModal.addEventListener('click',function(e){
+      openModal.addEventListener('click', function (e) {
+          let url = openModal.getAttribute('href');
+          console.log(url)
       e.preventDefault();
       document.querySelector('.modal-container').style.display = 'block';
     });

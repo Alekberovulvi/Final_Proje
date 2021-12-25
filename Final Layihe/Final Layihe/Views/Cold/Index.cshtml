@@ -1,0 +1,26 @@
+﻿@model CampaignDetailVM
+
+<section>
+    <div class="container">
+        <div class="row">
+            @foreach (Cold cold in Model.Colds)
+            {
+                <div class="col-lg-5">
+                    <img src="~/images/@cold.Image" alt="">
+                </div>
+                <div class="col-lg-7">
+                    <h1>
+                       @cold.Title
+                    </h1>
+                    <p>
+                        @cold.Desc
+                    </p>
+
+                    <a class="fb-xfbml-parse-ignore" target="_blank"
+                       href="https://www.facebook.com/sharer/sharer.php?u=https://www.papajohns.az/az/stocks/stocks/description?slug=birthday-discount.&amp;src=sdkpreparse">Paylaş</a>
+                </div>
+            }
+
+        </div>
+    </div>
+</section>

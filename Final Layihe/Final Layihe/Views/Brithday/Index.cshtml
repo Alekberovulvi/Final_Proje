@@ -1,0 +1,29 @@
+﻿@model CampaignDetailVM
+
+<section>
+    <div class="container">
+        <div class="row">
+            @foreach (Brithday brithday in Model.Brithdays)
+            {
+                <div class="col-lg-5">
+                    <img src="~/images/@brithday.Image" alt="">
+                </div>
+                <div class="col-lg-7">
+                    <h1>
+                        @brithday.Title
+                    </h1>
+                    <h3>
+                        @brithday.SubTitle
+                    </h3>
+                    <p>
+                        @brithday.Desc
+                    </p>
+
+                </div>
+
+            }
+            <a class="fb-xfbml-parse-ignore" target="_blank"
+               href="https://www.facebook.com/sharer/sharer.php?u=https://www.papajohns.az/az/stocks/stocks/description?slug=birthday-discount.&amp;src=sdkpreparse">Paylaş</a>
+        </div>
+    </div>
+</section>

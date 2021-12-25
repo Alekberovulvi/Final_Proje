@@ -1,0 +1,30 @@
+﻿@model CampaignDetailVM
+
+<section>
+    <div class="container">
+        <div class="row">
+            @foreach (Party party in Model.Parties)
+            {
+                <div class="col-lg-5">
+                    <img src="~/images/@party.Image" alt="">
+                </div>
+                <div class="col-lg-7">
+                    <h1>
+                      @party.Title
+                    </h1>
+                    <p>
+                       @party.Desc
+                        <br>
+                       
+                    <h3>@party.SubTitle</h3>
+                   
+
+                    <a class="fb-xfbml-parse-ignore" target="_blank"
+                       href="https://www.facebook.com/sharer/sharer.php?u=https://www.papajohns.az/az/stocks/stocks/description?slug=birthday-discount.&amp;src=sdkpreparse">Paylaş</a>
+                </div>
+            }
+
+
+        </div>
+    </div>
+</section>
