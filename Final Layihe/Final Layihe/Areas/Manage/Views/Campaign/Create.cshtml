@@ -1,0 +1,26 @@
+﻿@model Campaign
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<form method="post">
+    <div class="mb-3">
+        <label asp-for="@Model.Title"></label>
+        <input class="form-control" asp-for="@Model.Title">
+        <span class="alert-danger" asp-validation-for="@Model.Title"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="@Model.SubTitle"></label>
+        <input class="form-control" asp-for="@Model.SubTitle">
+        <span class="alert-warning" asp-validation-for="@Model.SubTitle"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="@Model.Desc"></label>
+        <input class="form-control" asp-for="@Model.Desc">
+        <span class="alert-warning" asp-validation-for="@Model.Desc"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+

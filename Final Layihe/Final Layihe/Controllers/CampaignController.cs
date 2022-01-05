@@ -1,4 +1,5 @@
 ﻿using Final_Layihe.DAL;
+using Final_Layihe.Models;
 using Final_Layihe.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -25,5 +26,18 @@ namespace Final_Layihe.Controllers
 
             return View(campaignVM);
         }
+
+        public async Task<ActionResult> Detail(int? Id)
+        {
+            if (Id == null)
+                return NotFound();
+          
+            Campaign campaign = new Campaign();
+            campaign = await _context.Campaigns.FirstOrDefaultAsync(x=>x.Id==Id);
+            if (campaign == null)
+                return NotFound();
+            return View(campaign);
+        }
+
     }
 }

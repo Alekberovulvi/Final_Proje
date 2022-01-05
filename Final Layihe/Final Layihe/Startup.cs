@@ -1,6 +1,8 @@
 using Final_Layihe.DAL;
+using Final_Layihe.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -23,6 +25,7 @@ namespace Final_Layihe
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
+
         {
             services.AddRazorPages();
             services.AddControllersWithViews();
@@ -30,8 +33,10 @@ namespace Final_Layihe
             {
                 options.UseSqlServer(Configuration.GetConnectionString("Default"));
             });
+
             services.AddSession(x => x.IdleTimeout = TimeSpan.FromMinutes(20));
-        }
+
+    }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -58,10 +63,18 @@ namespace Final_Layihe
 
             app.UseEndpoints(endpoints =>
             {
+
+                endpoints.MapControllerRoute(
+                  name: "areas",
+                  pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}"
+                );
+
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}"
-                    ) ;
+                    );
+
+              
             });
         }
     }
