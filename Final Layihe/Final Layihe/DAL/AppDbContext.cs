@@ -17,8 +17,6 @@ namespace Final_Layihe.DAL
         public virtual DbSet<Faqres> Faqres { get; set; }
         public virtual DbSet<Campaign> Campaigns { get; set; }
         public virtual DbSet<Papadias> Papadias { get; set; }
-        public virtual DbSet<Category> Categories { get; set; }
-        public virtual DbSet<About> Abouts { get; set; }
         public virtual DbSet<Pizza> Pizzas { get; set; }
         public virtual DbSet<Snack> Snacks { get; set; }
         public virtual DbSet<Salat> Salats { get; set; }
@@ -31,6 +29,7 @@ namespace Final_Layihe.DAL
         public virtual DbSet<Party> Parties { get; set; }
         public virtual DbSet<HandHeld> HandHelds { get; set; }
         public virtual DbSet<Classic> Classics { get; set; }
+        public virtual DbSet<Category> Categories { get; set; }
 
     }
 }

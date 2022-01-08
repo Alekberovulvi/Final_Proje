@@ -27,8 +27,6 @@ namespace Final_Layihe.Areas.Manage.Controllers
         {
             return View(await _context.Campaigns.ToListAsync());
         }
-        [HttpGet]
-       
 
         [HttpGet]
         public IActionResult Create()
@@ -46,13 +44,13 @@ namespace Final_Layihe.Areas.Manage.Controllers
 
             if (!campaign.Photo.ContentType.Contains("image"))
             {
-                ModelState.AddModelError("File", "Duzgun File Secin");
+                ModelState.AddModelError("Photo", "Duzgun File Secin");
                 return View(campaign);
             }
 
-            if ((campaign.Photo.Length / 1024) > 100)
+            if ((campaign.Photo.Length / 1024) > 200)
             {
-                ModelState.AddModelError("Photo", "Şəkilin ölçüsü maksimum 100 kb ola bilər");
+                ModelState.AddModelError("Photo", "Şəkilin ölçüsü maksimum 200 kb ola bilər");
                 return View(campaign);
             }
 
@@ -120,23 +118,21 @@ namespace Final_Layihe.Areas.Manage.Controllers
             if(campaign == null)
                return View("Error404");
 
-
-            if (campaign.Photo != null)
+            if(campaign.Photo != null)
             {
                 if (!campaign.Photo.ContentType.Contains("image"))
                 {
-                    ModelState.AddModelError("File", "Duzgun File Secin");
+                    ModelState.AddModelError("Photo", "Duzgun File Secin");
                     return View(campaign);
                 }
 
-                if ((campaign.Photo.Length / 1024) > 100)
+                if ((campaign.Photo.Length / 1024) > 200)
                 {
-                    ModelState.AddModelError("Photo", "Şəkilin ölçüsü maksimum 100 kb ola bilər");
+                    ModelState.AddModelError("Photo", "Şəkilin ölçüsü maksimum 200 kb ola bilər");
                     return View(campaign);
                 }
 
                 existcampaign.ImageName = campaign.Photo.FileName;
-
 
                 string path = _env.WebRootPath;
 
@@ -148,10 +144,8 @@ namespace Final_Layihe.Areas.Manage.Controllers
                 {
                     System.IO.File.Delete(oldfilePath);
                 }
-                campaign.Image = fileName;
 
-
-
+                existcampaign.Image = fileName;
                 using (FileStream fileStream = new FileStream(filePath, FileMode.Create))
                 {
                     await campaign.Photo.CopyToAsync(fileStream);

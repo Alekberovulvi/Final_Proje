@@ -8,7 +8,6 @@ namespace Final_Layihe.ViewModels
 {
     public class CategoryVM
     {
-        public ICollection<Category> Categories{ get; set; }
-        public ICollection<About> Abouts { get; set; }
+        public ICollection<Category> Categories { get; set; }
     }
 }

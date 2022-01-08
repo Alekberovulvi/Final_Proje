@@ -21,11 +21,10 @@ namespace Final_Layihe.Controllers
         {
             CategoryVM categoryVM = new CategoryVM
             {
-                Categories = await _context.Categories.ToListAsync(),
-                Abouts = await _context.Abouts.Include(a=>a.Category).ToListAsync()
+                Categories = await _context.Categories.ToListAsync()
             };
 
-                return View(categoryVM);
+            return View(categoryVM);
         }
     }
 }
