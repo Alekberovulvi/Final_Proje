@@ -12,9 +12,9 @@
     <thead>
         <tr>
             <th scope="col">#</th>
-            <th scope="col">Title</th>
-            <th scope="col">SubTitle</th>
-            <th scope="col">Desc</th>
+            <th scope="col">Başlıq</th>
+            <th scope="col">Altbaşlıq</th>
+            <th scope="col">Məzmun</th>
         </tr>
     </thead>
     <tbody>
@@ -26,7 +26,9 @@
             <td>@campaign.SubTitle</td>
             <td>@campaign.Desc</td>
             <td>
-                <a class="btn btn-primary" asp-action="Detail" asp-route-Id="@campaign.Id"> <i class="fas fa-edit"></i></a>
+                <img style="width:200px; height:200px; border-radius:50%" src="~/images/@campaign.Image" alt="">
+            </td>
+            <td>
                 <a class="btn btn-warning" asp-action="Update" asp-route-Id="@campaign.Id"><i class="fas fa-eraser"></i></a>
                 <a class="text-danger ml-1" onclick="return confirm('Deqiq silirsende he baxa sonra geri donusu olmaya biler')" asp-action="Delete" asp-route-Id="@campaign.Id"><i class="far fa-trash-alt"></i></a>
             </td>

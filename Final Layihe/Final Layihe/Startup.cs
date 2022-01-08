@@ -47,7 +47,8 @@ namespace Final_Layihe
             }
             else
             {
-                app.UseExceptionHandler("/Error");
+                app.UseExceptionHandler("manage/Dashboard/Error");
+                app.UseHsts();
             }
 
             app.UseHttpsRedirection();

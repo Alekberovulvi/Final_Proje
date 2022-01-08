@@ -13,5 +13,10 @@ namespace Final_Layihe.Areas.Manage.Controllers
         {
             return View();
         }
+
+        public IActionResult Error()
+        {
+            return View();
+        }
     }
 }
