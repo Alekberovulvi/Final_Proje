@@ -34,7 +34,10 @@ namespace Final_Layihe
                 options.UseSqlServer(Configuration.GetConnectionString("Default"));
             });
 
-            services.AddSession(x => x.IdleTimeout = TimeSpan.FromMinutes(20));
+            services.AddSession(opttions =>
+            {
+                opttions.IdleTimeout=TimeSpan.FromMinutes            });
+
 
     }
 
