@@ -16,5 +16,7 @@ namespace Final_Layihe.Models
         [Required]
         [ProtectedPersonalData]
         public string Phone { get; set; }
+        public bool IsDeleted { get; set; }
+
     }
 }
