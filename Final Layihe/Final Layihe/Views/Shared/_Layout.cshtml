@@ -40,81 +40,7 @@
 </head>
 
 <body>
-    <div class="modal fade" id="giris" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <form>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Email Ünvanı</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Şifrə</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
-                        </div>
-                        <div class="mb-3 form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Məni yadda saxla</label>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Daxil ol</button>
-                    </form>
-                    <span style="margin-left: 360px;
-                                    font-size: 12px;">Hesabınız Yoxdur?</span>
-                    <div class="text-center fs-6">
-                        <button class="btn btn-secondary" data-bs-toggle="modal"
-                                data-bs-target="#qeydiyyat" style="    margin-left: 340px;" href="#">
-                            Qeydiyatdan Keçin
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="qeydiyyat" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <form>
-                        <div class="mb-3">
-                            <label for="text" class="form-label">Ad</label>
-                            <input type="text" class="form-control">
-                        </div>
-                        <div class="mb-3">
-                            <label for="text" class="form-label">Soyad</label>
-                            <input type="text" class="form-control">
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Telefon Nömrəsi</label>
-                            <input type="text" class="form-control">
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Email Ünvanı</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Şifrə</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInputPassword2" class="form-label">Şifrənin Bərpası</label>
-                            <input type="password" class="form-control" id="exampleInputPassword2">
-                        </div>
-                        <div class="mb-3 form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Məni yadda saxla</label>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Qeydiyyat</button>
-                    </form>
-                    <button data-bs-toggle="modal" data-bs-target="#giris" class="btn btn-warning" style="margin-left: 300px;
-                                    margin-top: -37px;" href="#">
-                        Giriş Ekranına Geri Dönun
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
+   
     <header>
 
         <div class="header-top">
@@ -126,13 +52,13 @@
                 </ul>
 
                 <div class="button-container d-flex justify-content-between">
-                    <button style="font-size: 25px;" type="button" class="btn btn-black" data-bs-toggle="modal" data-bs-target="#giris">
-                        Giriş
-                    </button>
-                    <button style="margin-left: -444px; font-size: 25px;" type="button" class="btn btn-black" data-bs-toggle="modal"
-                            data-bs-target="#qeydiyyat">
+                    <a asp-controller="Account" asp-action="Register" style="font-size: 25px;">
                         Qeydiyyat
-                    </button>
+                    </a>
+                    <a asp-controller="Account" asp-action="Login" style="font-size: 25px;">
+                        Giriş
+                    </a>
+
                 </div>
 
 

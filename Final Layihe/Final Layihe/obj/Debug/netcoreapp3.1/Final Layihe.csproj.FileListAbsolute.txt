@@ -184,4 +184,11 @@ C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Slider\Index.cshtml.g.cs
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Slider\Create.cshtml.g.cs
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Slider\Update.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.csproj.AssemblyReference.cache

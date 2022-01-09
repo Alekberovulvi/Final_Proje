@@ -36,9 +36,24 @@ namespace Final_Layihe
 
             services.AddSession(opttions =>
             {
-                opttions.IdleTimeout=TimeSpan.FromMinutes            });
+                opttions.IdleTimeout = TimeSpan.FromMinutes(10);
+            });
 
+            services.AddIdentity<AppUser, IdentityRole>(identityoption =>
+            {
+                identityoption.Password.RequireDigit = true;
+                identityoption.Password.RequiredLength = 8;
+                identityoption.Password.RequireLowercase = true;
+                identityoption.Password.RequireNonAlphanumeric = true;
+                identityoption.Password.RequireUppercase = true;
+                identityoption.Password.RequiredUniqueChars = 1;
 
+                identityoption.User.RequireUniqueEmail = true;
+
+                identityoption.Lockout.MaxFailedAccessAttempts = 5;
+                identityoption.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(1);
+                identityoption.Lockout.AllowedForNewUsers = true;
+            }).AddDefaultTokenProviders().AddEntityFrameworkStores<AppDbContext>();
     }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -55,14 +70,12 @@ namespace Final_Layihe
             }
 
             app.UseHttpsRedirection();
-            app.UseStaticFiles();
-            app.UseSession();
 
             app.UseRouting();
-            app.UseAuthentication();
+            app.UseStaticFiles();
 
             app.UseSession();
-
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
