@@ -1,4 +1,4 @@
-﻿
+﻿@model RegisterVM
 @{
     Layout = null;
 }
@@ -34,54 +34,59 @@
             <div class="card-body p-0">
                 <!-- Nested Row within Card Body -->
                 <div class="row">
-                    <div class="col-lg-5 d-none d-lg-block bg-register-image"></div>
+                    <div class="col-lg-5 d-none d-lg-block "><img src="~/images/0x0-kurtlar-vadisi-dizisinin-polat-alemdari-necati-sasmazi-goren-soke-oldu-1582623985112.jpg" style="width:100%"/></div>
                     <div class="col-lg-7">
                         <div class="p-5">
                             <div class="text-center">
-                                <h1 class="h4 text-gray-900 mb-4">Create an Account!</h1>
+                                <h1 class="h4 text-gray-900 mb-4">Qeydiyyat</h1>
+                                <div class="text-danger" asp-validation-summary="ModelOnly"></div>
                             </div>
-                            <form class="user">
+                            <form class="user" method="post">
                                 <div class="form-group row">
                                     <div class="col-sm-6 mb-3 mb-sm-0">
-                                        <input type="text" class="form-control form-control-user" id="exampleFirstName"
-                                               placeholder="First Name">
+                                        <input asp-for="Name" class="form-control form-control-user"
+                                               placeholder="Ad">
+                                        <span asp-validation-for="Name" class="text-danger"></span>
                                     </div>
                                     <div class="col-sm-6">
-                                        <input type="text" class="form-control form-control-user" id="exampleLastName"
-                                               placeholder="Last Name">
+                                        <input asp-for="SurName" class="form-control form-control-user"
+                                               placeholder="Soyad">
+                                        <span asp-validation-for="SurName" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        <input asp-for="Phone" class="form-control form-control-user"
+                                               placeholder="Telefon Nömrəsi">
+                                        <span asp-validation-for="Phone" class="text-danger"></span>
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control form-control-user" id="exampleInputEmail"
-                                           placeholder="Email Address">
+                                    <input asp-for="UserName" class="form-control form-control-user"
+                                           placeholder="İstifadəçi adı">
+                                    <span asp-validation-for="UserName" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <input asp-for="Email" class="form-control form-control-user"
+                                           placeholder="Email Ünvanı">
+                                    <span asp-validation-for="Email" class="text-danger"></span>
                                 </div>
                                 <div class="form-group row">
                                     <div class="col-sm-6 mb-3 mb-sm-0">
-                                        <input type="password" class="form-control form-control-user"
-                                               id="exampleInputPassword" placeholder="Password">
+                                        <input asp-for="Password" class="form-control form-control-user" placeholder="Şifrə">
+                                        <span asp-validation-for="Password" class="text-danger"></span>
                                     </div>
                                     <div class="col-sm-6">
-                                        <input type="password" class="form-control form-control-user"
-                                               id="exampleRepeatPassword" placeholder="Repeat Password">
+                                        <input asp-for="ConfirmPassword" class="form-control form-control-user" placeholder="Təkrar Şifrə">
+                                        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
                                     </div>
                                 </div>
-                                <a href="login.html" class="btn btn-primary btn-user btn-block">
-                                    Register Account
-                                </a>
-                                <hr>
-                                <a href="index.html" class="btn btn-google btn-user btn-block">
-                                    <i class="fab fa-google fa-fw"></i> Register with Google
-                                </a>
-                                <a href="index.html" class="btn btn-facebook btn-user btn-block">
-                                    <i class="fab fa-facebook-f fa-fw"></i> Register with Facebook
-                                </a>
+                                <button type="submit" class="btn btn-primary btn-user btn-block">
+                                    Qeydiyyat
+                                </button>
                             </form>
-                            <hr>
                             <div class="text-center">
-                                <a class="small" href="forgot-password.html">Forgot Password?</a>
-                            </div>
-                            <div class="text-center">
-                                <a class="small" asp-controller="Account" asp-action="Login">Already have an account? Login!</a>
+                                <a class="small" asp-controller="Account" asp-action="Login">Giriş ekranına geri dönün</a>
                             </div>
                         </div>
                     </div>
@@ -100,7 +105,8 @@
 
     <!-- Custom scripts for all pages-->
     <script src="~/manage/js/sb-admin-2.min.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>
 </body>
 
 </html>

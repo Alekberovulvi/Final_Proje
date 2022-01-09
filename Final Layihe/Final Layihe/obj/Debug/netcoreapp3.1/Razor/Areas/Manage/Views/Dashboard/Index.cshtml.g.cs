@@ -19,8 +19,15 @@ using Final_Layihe.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\Areas\Manage\Views\_ViewImports.cshtml"
+using Final_Layihe.ViewModels.Account;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a2ade2e87abbd37c16cb6606c7b87dbf3aecd0fc", @"/Areas/Manage/Views/Dashboard/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"03ea1745d0aa020f95d07fe2599a8ae596911a55", @"/Areas/Manage/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"158205e8529b505054702b0d7ca3bc6d3ae1ee0b", @"/Areas/Manage/Views/_ViewImports.cshtml")]
     public class Areas_Manage_Views_Dashboard_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

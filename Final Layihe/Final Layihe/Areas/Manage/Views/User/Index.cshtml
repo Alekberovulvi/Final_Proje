@@ -1,0 +1,40 @@
+﻿@model ICollection<AccountVM>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="h3 mb-4 text-gray-800">İstifad</h1>
+
+<a class="btn btn-outline-success" asp-action="Create"> <i class="far fa-caret-square-right"></i>Create </a>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">Ad</th>
+            <th scope="col">Soyad</th>
+            <th scope="col">Telefon Nömrəsi</th>
+            <th scope="col">E-poct unvani</th>
+            <th scope="col">Istifadeci adi</th>
+            <th scope="col">Rolu</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (AccountVM accountVM in Model)
+        {
+        <tr>
+            <td>@accountVM.Name</td>
+            <td>@accountVM.SurName</td>
+            <td>@accountVM.Phone</td>
+            <td>@accountVM.Email</td>
+            <td>@accountVM.UserName</td>
+            <td>@accountVM.Role</td>
+            <td>
+                <a class="btn btn-warning" asp-action="Update" asp-route-Id="@accountVM.Id"><i class="fas fa-eraser"></i></a>
+                <a class="text-danger ml-1" onclick="return confirm('Deqiq silirsende he baxa sonra geri donusu olmaya biler')" asp-action="Delete" asp-route-Id="@accountVM.Id"><i class="far fa-trash-alt"></i></a>
+            </td>
+        </tr>
+
+        }
+    </tbody>
+</table>
+

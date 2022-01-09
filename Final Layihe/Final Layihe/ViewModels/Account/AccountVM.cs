@@ -8,23 +8,14 @@ using Microsoft.AspNetCore.Identity;
 
 namespace Final_Layihe.ViewModels.Account
 {
-    public class RegisterVM
+    public class AccountVM
     {
-        [Required]
+        public string Id { get; set; }
         public string Name { get; set; }
-        [Required]
         public string SurName { get; set; }
-        [Required]
-        [ProtectedPersonalData]
         public string Phone { get; set; }
         public string UserName { get; set; }
-        [EmailAddress, DataType(DataType.EmailAddress)]
         public string Email { get; set; }
-        [DataType(DataType.Password)]
-        public string Password { get; set; }
-        [DataType(DataType.Password),Compare("Password")]
-        public string ConfirmPassword { get; set; }
-
-
+        public string Role { get; set; }
     }
 }

@@ -52,12 +52,23 @@
                 </ul>
 
                 <div class="button-container d-flex justify-content-between">
-                    <a asp-controller="Account" asp-action="Register" style="font-size: 25px;">
-                        Qeydiyyat
-                    </a>
-                    <a asp-controller="Account" asp-action="Login" style="font-size: 25px;">
-                        Giriş
-                    </a>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <p style="font-size:25px">@User.Identity.Name</p>
+                        <br />
+                        <a asp-controller="Account" asp-action="Logout" style="font-size: 15px;">
+                            Çıxış
+                        </a>
+                    }
+                    else
+                    {
+                        <a asp-controller="Account" asp-action="Register" style="font-size: 25px;">
+                            Qeydiyyat
+                        </a>
+                        <a asp-controller="Account" asp-action="Login" style="font-size: 25px;">
+                            Giriş
+                        </a>
+                    }
 
                 </div>
 

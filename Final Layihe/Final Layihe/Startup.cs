@@ -44,7 +44,6 @@ namespace Final_Layihe
                 identityoption.Password.RequireDigit = true;
                 identityoption.Password.RequiredLength = 8;
                 identityoption.Password.RequireLowercase = true;
-                identityoption.Password.RequireNonAlphanumeric = true;
                 identityoption.Password.RequireUppercase = true;
                 identityoption.Password.RequiredUniqueChars = 1;
 

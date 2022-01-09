@@ -19,8 +19,15 @@ using Final_Layihe.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\Areas\Manage\Views\_ViewImports.cshtml"
+using Final_Layihe.ViewModels.Account;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2aa99b0c241c1e6c093409709436948664a056fd", @"/Areas/Manage/Views/Campaign/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"03ea1745d0aa020f95d07fe2599a8ae596911a55", @"/Areas/Manage/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"158205e8529b505054702b0d7ca3bc6d3ae1ee0b", @"/Areas/Manage/Views/_ViewImports.cshtml")]
     public class Areas_Manage_Views_Campaign_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ICollection<Campaign>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("btn btn-outline-success"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -67,7 +74,7 @@ using Final_Layihe.Models;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n<h1 class=\"h3 mb-4 text-gray-800\">Kampaniyalar</h1>\r\n\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2aa99b0c241c1e6c093409709436948664a056fd6587", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2aa99b0c241c1e6c093409709436948664a056fd6804", async() => {
                 WriteLiteral(" <i class=\"far fa-caret-square-right\"></i>Create ");
             }
             );
@@ -137,7 +144,7 @@ using Final_Layihe.Models;
 #line hidden
 #nullable disable
             WriteLiteral("</td>\r\n            <td>\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "2aa99b0c241c1e6c093409709436948664a056fd9545", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "2aa99b0c241c1e6c093409709436948664a056fd9762", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -162,7 +169,7 @@ AddHtmlAttributeValue("", 847, campaign.Image, 847, 15, false);
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n            </td>\r\n            <td>\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2aa99b0c241c1e6c093409709436948664a056fd11267", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2aa99b0c241c1e6c093409709436948664a056fd11484", async() => {
                 WriteLiteral("<i class=\"fas fa-eraser\"></i>");
             }
             );
@@ -194,7 +201,7 @@ AddHtmlAttributeValue("", 847, campaign.Image, 847, 15, false);
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2aa99b0c241c1e6c093409709436948664a056fd13590", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2aa99b0c241c1e6c093409709436948664a056fd13807", async() => {
                 WriteLiteral("<i class=\"far fa-trash-alt\"></i>");
             }
             );
