@@ -207,11 +207,6 @@ namespace Final_Layihe.Controllers
             return View();
         }
        
-        public IActionResult ChangePassword()
-        {
-            return View();
-        }
-
        public async Task<IActionResult> ChangePassword(string Id, string token)
         {
             if (string.IsNullOrWhiteSpace(Id) || string.IsNullOrWhiteSpace(token))
@@ -233,6 +228,40 @@ namespace Final_Layihe.Controllers
             };
 
             return View(forgetPassVM);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> ChangePassword(ForgetPassVM forgetPassVM)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
+
+            if (string.IsNullOrWhiteSpace(forgetPassVM.Id) || string.IsNullOrWhiteSpace(forgetPassVM.Token))
+            {
+                return NotFound();
+            }
+
+            AppUser appUser = await _manager.FindByIdAsync(forgetPassVM.Id);
+            if (appUser == null)
+            {
+                return NotFound();
+            }
+
+            IdentityResult identityResult = await _manager.ResetPasswordAsync(appUser, forgetPassVM.Token, forgetPassVM.Password);
+
+            if (!identityResult.Succeeded)
+            {
+                foreach (IdentityError error in identityResult.Errors)
+                {
+                    ModelState.AddModelError("", error.Description);
+                }
+                return View(forgetPassVM);
+            }
+
+            return RedirectToAction("Login");
         }
 
         #region Role

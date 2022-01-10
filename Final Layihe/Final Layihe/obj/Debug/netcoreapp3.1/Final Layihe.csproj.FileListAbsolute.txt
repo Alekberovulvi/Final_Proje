@@ -1,39 +1,9 @@
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.AssemblyInfoInputs.cache
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.AssemblyInfo.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.csproj.CoreCompileInputs.cache
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.RazorAssemblyInfo.cache
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.RazorAssemblyInfo.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\staticwebassets\Final Layihe.StaticWebAssets.Manifest.cache
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\staticwebassets\Final Layihe.StaticWebAssets.xml
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\scopedcss\bundle\Final Layihe.styles.css
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.TagHelpers.input.cache
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.TagHelpers.output.cache
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.RazorCoreGenerate.cache
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.RazorTargetAssemblyInfo.cache
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.RazorTargetAssemblyInfo.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.dll
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.pdb
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\appsettings.Development.json
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Final Layihe.exe
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Final Layihe.deps.json
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Final Layihe.runtimeconfig.json
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Final Layihe.runtimeconfig.dev.json
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Final Layihe.dll
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Final Layihe.pdb
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Final Layihe.Views.dll
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Final Layihe.Views.pdb
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
@@ -47,57 +17,36 @@ C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.Views.pdb
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.csproj.CopyComplete
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.genruntimeconfig.cache
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Bounce\Index.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Faq\Index.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Campaign\Index.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Papadias\Index.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_PapadiasDetailPatial.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_PizzaDetailPartial.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Pizza\Index.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_SnackDetailPartial.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Snack\Index.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_SalatDetailPartial.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Salat\Index.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_PastaDetailPartial.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Pasta\Index.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_DrinkDetailPartial.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Drink\Index.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_DesertDetailPartial.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Desert\Index.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_SousDetailPartial.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Sous\Index.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Brithday\Index.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\MailKit.dll
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\MimeKit.dll
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Final Layihe.exe
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Final Layihe.deps.json
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Final Layihe.runtimeconfig.json
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Final Layihe.runtimeconfig.dev.json
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
@@ -106,12 +55,19 @@ C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
@@ -164,37 +120,81 @@ C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Papadias\GetPapadiasDetails.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Papadias\_PapadiasModal.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_PapaPartialDetail.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Classic\Index.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Cold\Index.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\HandHeld\Index.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Party\Index.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Shared\_Layout.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\_ViewImports.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\_ViewStart.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Dashboard\Index.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Campaign\Detail.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.AssemblyInfoInputs.cache
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.AssemblyInfo.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.csproj.CoreCompileInputs.cache
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.RazorAssemblyInfo.cache
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.RazorAssemblyInfo.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\staticwebassets\Final Layihe.StaticWebAssets.Manifest.cache
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\staticwebassets\Final Layihe.StaticWebAssets.xml
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\scopedcss\bundle\Final Layihe.styles.css
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.TagHelpers.input.cache
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.TagHelpers.output.cache
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.RazorCoreGenerate.cache
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Campaign\Create.cshtml.g.cs
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Campaign\Index.cshtml.g.cs
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Campaign\Update.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Campaign\Create.cshtml.g.cs
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Dashboard\Error.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Category\Index.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Slider\Index.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Slider\Create.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Slider\Index.cshtml.g.cs
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Slider\Update.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\User\Index.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\_ViewImports.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\_ViewStart.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Account\ForgetPassword.cshtml.g.cs
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Bounce\Index.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Brithday\Index.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Campaign\Detail.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Campaign\Index.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Category\Index.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Classic\Index.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Cold\Index.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Desert\Index.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Drink\Index.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Faq\Index.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\HandHeld\Index.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Papadias\GetPapadiasDetails.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Papadias\Index.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Papadias\_PapadiasModal.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Party\Index.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Pasta\Index.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Pizza\Index.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Salat\Index.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_DesertDetailPartial.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_DrinkDetailPartial.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_PapadiasDetailPatial.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_PapaPartialDetail.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_PastaDetailPartial.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_PizzaDetailPartial.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_SalatDetailPartial.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_SnackDetailPartial.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_SousDetailPartial.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Snack\Index.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Sous\Index.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.RazorTargetAssemblyInfo.cache
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.RazorTargetAssemblyInfo.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.Views.pdb
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.csproj.CopyComplete
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.dll
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.pdb
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.genruntimeconfig.cache
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Final Layihe.pdb
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Final Layihe.Views.pdb
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.csproj.AssemblyReference.cache
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\User\Index.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\MailKit.dll
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\MimeKit.dll
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Account\ForgetPassword.cshtml.g.cs
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Account\ChangePassword.cshtml.g.cs
