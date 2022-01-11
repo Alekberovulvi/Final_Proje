@@ -198,3 +198,4 @@ C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Final Layihe.Views.pdb
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.csproj.AssemblyReference.cache
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Account\ChangePassword.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\EleBele\Index.cshtml.g.cs
