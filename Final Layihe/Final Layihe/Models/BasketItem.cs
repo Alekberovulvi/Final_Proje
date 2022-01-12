@@ -2,18 +2,19 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using Final_Layihe.Models;
 
-namespace Final_Layihe.ViewModels
+namespace Final_Layihe.Models
 {
-    public class BasketVM
+    public class BasketItem
     {
-        public int ProductId { get; set; }
+        public int Id { get; set; }
         public string Title { get; set; }
         public string Image { get; set; }
         public double Price { get; set; }
         public int Count { get; set; }
+        public AppUser AppUser { get; set; }
+        public string AppUserId { get; set; }
+        public Snack Snack { get; set; }
+        public int SnackId { get; set; }
     }
 }

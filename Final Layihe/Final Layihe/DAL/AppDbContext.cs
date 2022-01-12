@@ -31,5 +31,6 @@ namespace Final_Layihe.DAL
         public virtual DbSet<HandHeld> HandHelds { get; set; }
         public virtual DbSet<Classic> Classics { get; set; }
         public virtual DbSet<Elebele> Elebeles { get; set; }
+        public virtual DbSet<BasketItem> BasketItems { get; set; }
     }
 }

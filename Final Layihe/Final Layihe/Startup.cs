@@ -1,5 +1,6 @@
 using Final_Layihe.DAL;
 using Final_Layihe.Models;
+using Final_Layihe.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
@@ -53,11 +54,15 @@ namespace Final_Layihe
                 identityoption.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(1);
                 identityoption.Lockout.AllowedForNewUsers = true;
             }).AddDefaultTokenProviders().AddEntityFrameworkStores<AppDbContext>();
-    }
+            services.AddHttpContextAccessor();
+
+            services.AddScoped<LayoutService>();
+        }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

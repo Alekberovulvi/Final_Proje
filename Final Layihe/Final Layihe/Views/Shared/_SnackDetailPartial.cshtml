@@ -19,13 +19,13 @@
         <div class="plus"><i class="fas fa-plus"></i></div>
         <div class="count">1</div>
         <div class="minus"><i class="fas fa-minus"></i></div>
-        <div class="price">@Model.Price₼ </div>
+        <div class="price">@(((double)Model.Price))₼ </div>
     </div>
     <div class="modal-footer">
         <div class="basket">
             <sup>0</sup>
             <i class="fas fa-shopping-basket"></i>
         </div>
-        <button class="add-basket">Səbətə at</button>
+        <a class="add-basket" asp-controller="cart" asp-action="addtocart" asp-route-id="@Model.Id" asp-route-count="1">Səbətə at</a>
     </div>
 </div>

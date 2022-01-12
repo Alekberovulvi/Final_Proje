@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Final_Layihe.ViewModels.Order
+namespace Final_Layihe.ViewModels
 {
     public class OrderVM
     {
