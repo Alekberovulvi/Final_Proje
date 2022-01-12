@@ -196,6 +196,27 @@ C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.genruntimeconfig.cache
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Final Layihe.pdb
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Final Layihe.Views.pdb
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.csproj.AssemblyReference.cache
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Account\ChangePassword.cshtml.g.cs
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\EleBele\Index.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Pasta\Index.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Pasta\Create.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Pasta\Update.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.csproj.AssemblyReference.cache
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Desert\Index.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Desert\Update.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Desert\Create.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Sous\Index.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Sous\Create.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Sous\Update.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Snack\Index.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Snack\Create.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Snack\Update.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Salat\Index.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Salat\Create.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Salat\Update.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Pizza\Index.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Pizza\Create.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Pizza\Update.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Drink\Index.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Drink\Create.cshtml.g.cs
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Drink\Update.cshtml.g.cs
