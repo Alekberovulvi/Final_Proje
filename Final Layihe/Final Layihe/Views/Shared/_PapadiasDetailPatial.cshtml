@@ -22,10 +22,6 @@
             <div class="price">@Model.Price₼ </div>
         </div>
         <div class="modal-footer">
-            <div class="basket">
-                <sup>0</sup>
-                <i class="fas fa-shopping-basket"></i>
-            </div>
             <a asp-controller="papadias" asp-action="addtocart" asp-route-id="@Model.Id" asp-route-count="1" class="add-basket">Səbətə at</a>
         </div>
     </div>
