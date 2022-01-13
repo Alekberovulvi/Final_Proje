@@ -112,7 +112,7 @@ namespace Final_Layihe.Controllers
                 {
                     Count = x.Count,
                     Image = x.Image,
-                    ProductId = x.SnackId,
+                    ProductId = (int)x.SnackId,
                     Price = x.Price,
                     Title = x.Title
                 }).ToList();

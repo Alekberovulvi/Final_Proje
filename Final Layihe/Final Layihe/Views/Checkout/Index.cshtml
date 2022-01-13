@@ -1,0 +1,65 @@
+﻿@model OrderVM
+@{
+    ViewData["Title"] = "Index";
+    double total = 0;
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <form asp-action="order" method="post">
+                <div class="promo-wrapper align-items-start flex-column" style="margin:10px">
+                    <input asp-for="Name" value="" class="promo-input" placeholder="Name" />
+                    <span asp-validation-for="Name" class="text-danger my-2"></span>
+                </div>
+                <div class="promo-wrapper align-items-start flex-column" style="margin:10px">
+                    <input asp-for="Surname" value="" class="promo-input" placeholder="Surname" />
+                    <span asp-validation-for="Surname" class="text-danger my-2"></span>
+                </div>
+                <div class="promo-wrapper align-items-start flex-column" style="margin:10px">
+                    <input asp-for="Email" value="" class="promo-input" placeholder="Email" />
+                    <span asp-validation-for="Email" class="text-danger my-2"></span>
+
+                </div>
+                <div class="promo-wrapper align-items-start flex-column" style="margin:10px">
+                    <input asp-for="Phone" class="promo-input" placeholder="Phone" />
+                    <span asp-validation-for="Phone" class="text-danger my-2"></span>
+
+                </div>
+                <div class="promo-wrapper align-items-start flex-column" style="margin:10px">
+                    <input asp-for="Address" class="promo-input" placeholder="Address" />
+                    <span asp-validation-for="Address"class="text-danger my-2"></span>
+
+                </div>
+                <div class="promo-wrapper align-items-start flex-column" style="margin:10px">
+                    <input asp-for="City" class="promo-input" placeholder="City" />
+                    <span asp-validation-for="City" class="text-danger my-2"></span>
+                </div>
+                <div class="promo-wrapper">
+                    <button type="submit" class="btn btn_green js-activate-promo-code">Order Now</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-4">
+            <div class="card mt-5 p3">
+                <div class="card-body">
+                    <h2 class="card-title">Products</h2>
+                </div>
+                <ul class="list-group">
+                    @foreach (BasketVM basket in Model.BasketVMs)
+                    {
+                        total += basket.Price * basket.Count;
+                        <li class="list-group-item" style="font-size:1.6rem">
+                            <div class="d-flex justify-content-between">
+                                <p>@basket.Title</p>
+                                <p>@basket.Count X @basket.Price </p>
+                            </div>
+                        </li>
+                    }
+                </ul>
+
+                <h3 class="text-end me-2 p-3">@total$</h3>
+            </div>
+        </div>
+    </div>
+</div>

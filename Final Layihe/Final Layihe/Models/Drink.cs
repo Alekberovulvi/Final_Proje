@@ -14,7 +14,7 @@ namespace Final_Layihe.Models
         public string Title { get; set; }
         public string Img { get; set; }
         public string Basliq { get; set; }
-        public decimal Price { get; set; }
+        public double Price { get; set; }
         [NotMapped]
         public IFormFile Photo { get; set; }
     }

@@ -12,7 +12,7 @@ namespace Final_Layihe.ViewModels
         [Required, StringLength(25)]
         public string Name { get; set; }
         [StringLength(25)]
-        public string Lastname { get; set; }
+        public string Surname { get; set; }
         [Required, StringLength(100)]
         public string Email { get; set; }
         [Required, StringLength(150)]
@@ -21,9 +21,6 @@ namespace Final_Layihe.ViewModels
         public string Phone { get; set; }
         [Required, StringLength(25)]
         public string City { get; set; }
-        [Required, StringLength(10)]
-        public string ZipCode { get; set; }
         public List<BasketVM> BasketVMs { get; set; }
-        public List<int> BasketIds { get; set; }
     }
 }

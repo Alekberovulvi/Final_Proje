@@ -15,8 +15,8 @@ namespace Final_Layihe.Models
         [Required, Column(TypeName = "decimal(9,2)")]
         public double ProductPrice { get; set; }
         public int Count { get; set; }
-        public Product Product { get; set; }
-        public int? ProductId { get; set; }
+        public Snack Snack { get; set; }
+        public int? SnackId { get; set; }
         public Order Order { get; set; }
         public int OrderId { get; set; }
     }

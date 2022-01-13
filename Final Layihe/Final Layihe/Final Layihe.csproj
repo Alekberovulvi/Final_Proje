@@ -6,6 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\Product\**" />
+    <Content Remove="Views\Product\**" />
+    <EmbeddedResource Remove="Views\Product\**" />
+    <None Remove="Views\Product\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Remove="Migrations\20211222072023_UpdateCategryTable.cs" />
     <Compile Remove="Migrations\20211222072023_UpdateCategryTable.Designer.cs" />
     <Compile Remove="Migrations\20211222072141_UpdateCategry_1Table.cs" />
@@ -18,6 +25,10 @@
     <Compile Remove="Migrations\20211222073001_UpdateCategry_2Table.Designer.cs" />
     <Compile Remove="Migrations\20211222073408_UpdateCategry_2Table.cs" />
     <Compile Remove="Migrations\20211222073408_UpdateCategry_2Table.Designer.cs" />
+    <Compile Remove="Migrations\20220113194042_UpdatedOrderTable.cs" />
+    <Compile Remove="Migrations\20220113194042_UpdatedOrderTable.Designer.cs" />
+    <Compile Remove="Migrations\20220113194352_UpdatedOrderTable.cs" />
+    <Compile Remove="Migrations\20220113194352_UpdatedOrderTable.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -31,10 +42,6 @@
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
     <PackageReference Include="MimeKit" Version="3.0.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Views\Product\" />
   </ItemGroup>
 
 </Project>

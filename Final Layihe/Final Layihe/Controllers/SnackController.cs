@@ -1,8 +1,11 @@
 ﻿using Final_Layihe.DAL;
 using Final_Layihe.Models;
+using Final_Layihe.Services;
 using Final_Layihe.ViewModels;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -39,5 +42,7 @@ namespace Final_Layihe.Controllers
 
             return PartialView("_SnackDetailPartial", snack);
         }
+
+
     }
 }

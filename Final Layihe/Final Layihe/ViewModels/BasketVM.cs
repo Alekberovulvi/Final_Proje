@@ -10,7 +10,7 @@ namespace Final_Layihe.ViewModels
 {
     public class BasketVM
     {
-        public int ProductId { get; set; }
+        public int? ProductId { get; set; }
         public string Title { get; set; }
         public string Image { get; set; }
         public double Price { get; set; }

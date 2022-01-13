@@ -42,7 +42,7 @@ namespace Final_Layihe.Services
                     Title = x.Title,
                     Count = x.Count,
                     Image = x.Image,
-                    ProductId = x.SnackId,
+                    ProductId = (int)x.SnackId,
                     Price = x.Price,
                 }).ToList();
             }

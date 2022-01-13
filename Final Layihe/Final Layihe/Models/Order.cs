@@ -16,8 +16,7 @@ namespace Final_Layihe.Models
         public string Email { get; set; }
         [Required, StringLength(20)]
         public string Phone { get; set; }
-        [Required, StringLength(10)]
-        public string ZipCode { get; set; }
+
         [Required, StringLength(150)]
         public string Address { get; set; }
         public DateTime Date { get; set; }
