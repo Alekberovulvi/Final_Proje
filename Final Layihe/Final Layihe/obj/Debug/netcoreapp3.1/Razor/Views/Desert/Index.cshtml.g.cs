@@ -41,7 +41,7 @@ using Final_Layihe.Services;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d6ce985e65e1acff247d421cfe96ce0894833262", @"/Views/Desert/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a0ab90734eb2961097b519c8949fbba821cd6b5d", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"69d1ae78150e26dd0c02b0a4020e9ecd7cf53bb9", @"/Views/_ViewImports.cshtml")]
     public class Views_Desert_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<DesertVM>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("alt", new global::Microsoft.AspNetCore.Html.HtmlString(""), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);

@@ -41,7 +41,7 @@ using Final_Layihe.Services;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e0e03e75d8c90ab0f7ca0ba8185f5d6a2dab4249", @"/Views/Papadias/_PapadiasModal.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a0ab90734eb2961097b519c8949fbba821cd6b5d", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"69d1ae78150e26dd0c02b0a4020e9ecd7cf53bb9", @"/Views/_ViewImports.cshtml")]
     public class Views_Papadias__PapadiasModal : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Papadias>
     {
         #pragma warning disable 1998

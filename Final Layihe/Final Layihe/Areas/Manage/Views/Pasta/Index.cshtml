@@ -14,24 +14,26 @@
             <th scope="col">#</th>
             <th scope="col">Başlıq</th>
             <th scope="col">Məzmun</th>
+            <th scope="col">Qiymət</th>
             <th scope="col">Şəkil</th>
         </tr>
     </thead>
     <tbody>
         @foreach (Pasta pasta in Model)
         {
-            <tr>
-                <td>@count</td>
-                <td>@pasta.Title</td>
-                <td>@pasta.Desc</td>
-                <td>
-                    <img style="width:200px; height:200px; border-radius:50%" src="~/images/@pasta.Image" alt="">
-                </td>
-                <td>
-                    <a class="btn btn-warning" asp-action="Update" asp-route-Id="@pasta.Id"><i class="fas fa-eraser"></i></a>
-                    <a class="text-danger ml-1" onclick="return confirm('Deqiq silirsende he baxa sonra geri donusu olmaya biler')" asp-action="Delete" asp-route-Id="@pasta.Id"><i class="far fa-trash-alt"></i></a>
-                </td>
-            </tr>
+        <tr>
+            <td>@count</td>
+            <td>@pasta.Title</td>
+            <td>@pasta.Desc</td>
+            <td>@pasta.Price</td>
+            <td>
+                <img style="width:200px; height:200px; border-radius:50%" src="~/images/@pasta.Image" alt="">
+            </td>
+            <td>
+                <a class="btn btn-warning" asp-action="Update" asp-route-Id="@pasta.Id"><i class="fas fa-eraser"></i></a>
+                <a class="text-danger ml-1" onclick="return confirm('Deqiq silirsende he baxa sonra geri donusu olmaya biler')" asp-action="Delete" asp-route-Id="@pasta.Id"><i class="far fa-trash-alt"></i></a>
+            </td>
+        </tr>
             count++;
 
         }

@@ -16,5 +16,7 @@ namespace Final_Layihe.Models
         public string AppUserId { get; set; }
         public Snack Snack { get; set; }
         public int SnackId { get; set; }
+        public Drink Drink { get; set; }
+        public int DrinkId { get; set; }
     }
 }

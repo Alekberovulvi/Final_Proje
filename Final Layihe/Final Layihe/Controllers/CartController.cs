@@ -1,5 +1,6 @@
 ﻿using Final_Layihe.DAL;
 using Final_Layihe.Models;
+using Final_Layihe.Services;
 using Final_Layihe.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -16,17 +17,19 @@ namespace Final_Layihe.Controllers
     {
         private readonly AppDbContext _context;
         private readonly UserManager<AppUser> _usermanager;
-        public CartController(AppDbContext context,UserManager<AppUser> usermanager)
+        private readonly LayoutService _service;
+        public CartController(AppDbContext context, UserManager<AppUser> usermanager, LayoutService service)
         {
             _context = context;
             _usermanager = usermanager;
+            _service = service;
         }
 
         public async Task<IActionResult> AddToCart(int? id, int? count)
         {
             if (id == null) return NotFound();
             AppUser user = User.Identity.IsAuthenticated ? await _usermanager.FindByNameAsync(User.Identity.Name) : null;
-            Snack snack =  _context.Snacks.FirstOrDefault(x=>x.Id==id);
+            Snack snack = _context.Snacks.FirstOrDefault(x => x.Id == id);
             List<BasketVM> basketProducts = new List<BasketVM>();
             if (user == null)
             {
@@ -95,6 +98,7 @@ namespace Final_Layihe.Controllers
             }
             return RedirectToAction("Index", "Home");
         }
+
+        
     }
 }
-    

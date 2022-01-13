@@ -11,6 +11,7 @@
             let price = document.querySelector('.controls .price').innerText.slice(0, -1);
             plus.addEventListener('click', function () {
                 let count = document.querySelector('.controls .count').innerText;
+                console.log(this.parentElement.querySelector('.price').innerText)
                 this.parentElement.querySelector('.price').innerText = ++count * +price + '₼';
                 document.querySelector('.controls .count').innerText = count;
                 let url = document.querySelector('.add-basket').getAttribute('href');

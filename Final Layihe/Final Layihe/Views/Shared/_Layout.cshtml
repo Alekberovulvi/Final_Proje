@@ -1,4 +1,11 @@
-﻿@inject LayoutService service;
+﻿@using fin.ViewModels.ProductViewModel;
+@inject LayoutService service;
+
+
+@{ AppUserVM appUserVM = await layoutService.GetUser();
+    List<BasketProduct> basketProducts = await layoutService.GetBasket(); }
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -41,7 +48,7 @@
 </head>
 
 <body>
-   
+
     <header>
 
         <div class="header-top">
@@ -51,6 +58,70 @@
                         <a asp-controller="Bounce" asp-action="Index">PapaBonus</a>
                     </li>
                 </ul>
+
+                <div class="cart-block">
+                    <div class="cart-total">
+                        <span class="text-number">
+                            @basketProducts.Count
+                        </span>
+                        <span class="text-item">
+                            Shopping Cart
+                        </span>
+                        @if (basketProducts.Count > 0)
+                        {
+                            double total = 0;
+                            foreach (BasketProduct basketProduct in basketProducts)
+                            {
+                                total += (basketProduct.Count * (int)(basketProduct.Product.DiscountPrice != null ? basketProduct.Product.DiscountPrice : basketProduct.Product.Price));
+                            }
+
+                            <span class="price">
+                                £@total.ToString("F2");
+                                <i class="fas fa-chevron-down"></i>
+                            </span>
+                        }
+                        else
+                        {
+                            <span class="price">
+                                £0.00
+                                <i class="fas fa-chevron-down"></i>
+                            </span>
+                        }
+
+                    </div>
+                    <div class="cart-dropdown-block">
+                        <div class=" single-cart-block ">
+                            @foreach (BasketProduct basketProduct1 in basketProducts)
+                            {
+                                <div class="cart-product">
+                                    <a href="~/product-details.html" class="image">
+                                        <img src="~/image/products/@basketProduct1.Product.MainImage" alt="">
+                                    </a>
+                                    <div class="content">
+                                        <h3 class="title">
+                                            <a href="~/product-details.html">
+                                                @basketProduct1.Product.Title
+                                            </a>
+                                        </h3>
+                                        <p class="price"><span class="qty">@basketProduct1.Count ×</span> £@((basketProduct1.Count * (int)(basketProduct1.Product.DiscountPrice != null ? basketProduct1.Product.DiscountPrice : basketProduct1.Product.Price)).ToString("F2"))</p>
+                                        <button class="cross-btn"><i class="fas fa-times"></i></button>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                        <div class=" single-cart-block ">
+                            <div class="btn-block">
+                                <a asp-controller="Product" asp-action="ViewCartBasket" class="btn">
+                                    View Cart <i class="fas fa-chevron-right"></i>
+                                </a>
+                                <a href="~/checkout.html" class="btn btn--primary">
+                                    Check Out <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
 
                 <div class="button-container d-flex justify-content-between">
                     @if (User.Identity.IsAuthenticated)
@@ -75,9 +146,10 @@
 
 
 
+
                 <div class="header-user">
                     <div class="col-i col-i-f">
-                        <a href="#">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <div class="basket-wrapper">
                                 <i class="fas fa-shopping-basket"></i>
                                 <span class="price">@((await service.GetBasketItems()).Count) </span>

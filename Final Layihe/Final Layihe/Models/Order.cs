@@ -10,15 +10,20 @@ namespace Final_Layihe.Models
     public class Order
     {
         public int Id { get; set; }
-        public DateTime OrderedAt { get; set; }
-        public int No { get; set; }
-        public double TotalPrice { get; set; }
-        public int IsApprove { get; set; }
-        public string ApproveNote { get; set; }
-        public bool IsDeleted { get; set; }
-        [Required]
+        [Required, StringLength(50)]
+        public string Fullname { get; set; }
+        [Required, StringLength(100)]
+        public string Email { get; set; }
+        [Required, StringLength(20)]
+        public string Phone { get; set; }
+        [Required, StringLength(10)]
+        public string ZipCode { get; set; }
+        [Required, StringLength(150)]
+        public string Address { get; set; }
+        public DateTime Date { get; set; }
+        public AppUser AppUser { get; set; }
         public string AppUserId { get; set; }
-        public virtual AppUser AppUser { get; set; }
-        public virtual ICollection<OrderItem> OrderItems { get; set; }
+        public List<OrderItem> OrderItems { get; set; }
+        public double TotalPrice { get; set; }
     }
 }
