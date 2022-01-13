@@ -158,7 +158,6 @@ C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Brithday\Index.cshtml.g.cs
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Campaign\Detail.cshtml.g.cs
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Campaign\Index.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Category\Index.cshtml.g.cs
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Classic\Index.cshtml.g.cs
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Cold\Index.cshtml.g.cs
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Desert\Index.cshtml.g.cs
@@ -197,7 +196,6 @@ C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Final Layihe.pdb
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\bin\Debug\netcoreapp3.1\Final Layihe.Views.pdb
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Account\ChangePassword.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\EleBele\Index.cshtml.g.cs
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Pasta\Index.cshtml.g.cs
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Pasta\Create.cshtml.g.cs
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Pasta\Update.cshtml.g.cs
@@ -221,4 +219,4 @@ C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Drink\Update.cshtml.g.cs
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Cart\Index.cshtml.g.cs
 C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Checkout\Index.cshtml.g.cs
-C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Final Layihe.csproj.AssemblyReference.cache
+C:\Users\elekb\OneDrive\Desktop\Final Layihe\Final Layihe\obj\Debug\netcoreapp3.1\Razor\Views\Category\Index.cshtml.g.cs

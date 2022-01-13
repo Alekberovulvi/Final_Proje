@@ -30,7 +30,6 @@ namespace Final_Layihe.DAL
         public virtual DbSet<Party> Parties { get; set; }
         public virtual DbSet<HandHeld> HandHelds { get; set; }
         public virtual DbSet<Classic> Classics { get; set; }
-        public virtual DbSet<Elebele> Elebeles { get; set; }
         public virtual DbSet<BasketItem> BasketItems { get; set; }
         public virtual DbSet<Order> Orders { get; set; }
         public virtual DbSet<OrderItem> OrderItems { get; set; }

@@ -47,7 +47,7 @@ namespace Final_Layihe.Controllers
         {
             if (id == null) return NotFound();
             AppUser user = User.Identity.IsAuthenticated ? await _usermanager.FindByNameAsync(User.Identity.Name) : null;
-            Pizza snack = _context.Pizzas.FirstOrDefault(x => x.Id == id);
+            Pizza pizza = _context.Pizzas.FirstOrDefault(x => x.Id == id);
             List<BasketVM> basketProducts = new List<BasketVM>();
             if (user == null)
             {
@@ -56,17 +56,17 @@ namespace Final_Layihe.Controllers
                 {
                     basketProducts.Add(new BasketVM
                     {
-                        ProductId = snack.Id,
+                        ProductId = pizza.Id,
                         Count = (int)count,
-                        Title = snack.Title,
-                        Price = snack.Price,
-                        Image = snack.Image
+                        Title = pizza.Title,
+                        Price = pizza.Price,
+                        Image = pizza.Image
                     });
                 }
                 else
                 {
                     basketProducts = JsonConvert.DeserializeObject<List<BasketVM>>(basketStr);
-                    BasketVM productBasket = basketProducts.FirstOrDefault(x => x.ProductId == snack.Id);
+                    BasketVM productBasket = basketProducts.FirstOrDefault(x => x.ProductId == pizza.Id);
                     if (productBasket != null)
                     {
                         productBasket.Count++;
@@ -75,11 +75,11 @@ namespace Final_Layihe.Controllers
                     {
                         basketProducts.Add(new BasketVM
                         {
-                            ProductId = snack.Id,
+                            ProductId = pizza.Id,
                             Count = (int)count,
-                            Title = snack.Title,
-                            Price = snack.Price,
-                            Image = snack.Image
+                            Title = pizza.Title,
+                            Price = pizza.Price,
+                            Image = pizza.Image
                         });
                     }
                 }
@@ -92,11 +92,11 @@ namespace Final_Layihe.Controllers
                 {
                     _context.BasketItems.Add(new BasketItem
                     {
-                        PizzaId = snack.Id,
+                        PizzaId = pizza.Id,
                         Count = (int)count,
-                        Title = snack.Title,
-                        Price = snack.Price,
-                        Image = snack.Image,
+                        Title = pizza.Title,
+                        Price = pizza.Price,
+                        Image = pizza.Image,
                         AppUserId = user.Id
                     });
                 }

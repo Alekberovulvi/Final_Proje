@@ -26,6 +26,6 @@
             <sup>0</sup>
             <i class="fas fa-shopping-basket"></i>
         </div>
-        <button class="add-basket">Səbətə at</button>
+        <a asp-controller="sous" asp-action="addtocart" asp-route-id="@Model.Id" asp-route-count="1" class="add-basket">Səbətə at</a>
     </div>
 </div>

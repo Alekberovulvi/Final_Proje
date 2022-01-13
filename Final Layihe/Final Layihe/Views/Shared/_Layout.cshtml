@@ -76,13 +76,11 @@
                 </div>
 
 
-
-
                 <div class="header-user">
                     <div class="col-i col-i-f">
                         <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <div class="basket-wrapper">
-                                <i class="fas fa-shopping-basket"></i>
+                                <a asp-controller="Checkout"  asp-action="Index"><i class="fas fa-shopping-basket"></i></a>
                                 <span class="price">@((await service.GetBasketItems()).Count) </span>
                             </div>
                         </a>
