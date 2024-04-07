@@ -361,21 +361,6 @@ namespace Final_Layihe.Migrations
                     b.ToTable("Drinks");
                 });
 
-            modelBuilder.Entity("Final_Layihe.Models.Elebele", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Title")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Elebeles");
-                });
-
             modelBuilder.Entity("Final_Layihe.Models.Faq", b =>
                 {
                     b.Property<int>("Id")
